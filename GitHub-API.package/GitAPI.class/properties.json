@@ -1,14 +1,14 @@
 {
-	"category" : "Counter-Tests",
+	"category" : "GitHub-API",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"counter" ],
-	"name" : "CounterTests",
+		 ],
+	"name" : "GitAPI",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "Object",
 	"type" : "normal" }
