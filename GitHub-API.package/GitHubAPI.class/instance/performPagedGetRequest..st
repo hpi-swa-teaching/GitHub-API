@@ -1,5 +1,5 @@
 requestsHttp
-performPagedGetRequest: anURL
+performPagedGetRequest: aURL
 
 	| page response result keyNum |
 	page := self defaultPage.
@@ -8,7 +8,7 @@ performPagedGetRequest: anURL
 	keyNum := 0.
 	
 	[true] whileTrue: [
-		response := self performGetRequest: anURL, '?per_page=', self defaultPageSize asString, '&page=', page asString.
+		response := self performGetRequest: aURL, '?per_page=', self defaultPageSize asString, '&page=', page asString.
 		response size = 0 ifTrue: [^ result].
 		response do: [
 			:res | result at: keyNum put: res.
