@@ -5,7 +5,7 @@ performGetRequest: aURL
 	client := WebClient new.
 	response := client 
 		httpGet: aURL 
-		do: [:request | request headerAt: 'Authorization' put: 'token ' , self token].
+		do: [:request | request headerAt: 'Authorization' put: 'token ' , self class token].
 	
 	^ STONJSON fromStream: response content readStream.
 	

@@ -3,10 +3,10 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Token" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"token" ],
+		 ],
 	"name" : "GitHubAPI",
 	"pools" : [
 		 ],
