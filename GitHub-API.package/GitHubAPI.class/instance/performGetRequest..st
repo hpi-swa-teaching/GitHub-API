@@ -7,5 +7,5 @@ performGetRequest: aURL
 		httpGet: aURL 
 		do: [:request | request headerAt: 'Authorization' put: 'token ' , self class token].
 	
-	^ STONJSON fromStream: response content readStream.
+	^ Json readFrom: response content utf8ToSqueak readStream
 	
