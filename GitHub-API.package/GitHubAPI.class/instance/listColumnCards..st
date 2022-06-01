@@ -1,4 +1,4 @@
 requestsAPI
-listProjectCards: aColumnID
+listColumnCards: aColumnID
 
     ^ self performPagedGetRequest: 'https://api.github.com/projects/columns/' , aColumnID , '/cards'
