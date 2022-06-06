@@ -1,0 +1,20 @@
+{
+	"category" : "GitHub-API",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"token",
+		"username",
+		"path",
+		"baseURL",
+		"queryParameters",
+		"postParameters",
+		"patchParameters" ],
+	"name" : "GitHubObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

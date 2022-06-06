@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"isAuthorizedUser" ],
-	"name" : "GitHubAPI",
+		 ],
+	"name" : "GitHubProjects",
 	"pools" : [
 		 ],
-	"super" : "GitHubObject",
+	"super" : "GitHubRepo",
 	"type" : "normal" }

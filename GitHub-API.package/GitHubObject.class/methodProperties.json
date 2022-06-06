@@ -1,0 +1,27 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"add:" : "JH 6/6/2022 17:26",
+		"baseURL" : "JH 6/6/2022 15:42",
+		"checkParameters:forRequirements:" : "JH 6/6/2022 15:43",
+		"checkRequiredParameters:forRequirements:" : "JH 6/6/2022 15:44",
+		"delete" : "JH 6/6/2022 17:09",
+		"encodeQueryParameters:" : "JH 6/6/2022 15:44",
+		"get" : "JH 6/6/2022 15:45",
+		"get:" : "JH 6/6/2022 17:58",
+		"getAll" : "JH 6/6/2022 17:59",
+		"getAll:" : "JH 6/6/2022 17:59",
+		"handleResponse:" : "JH 6/6/2022 17:41",
+		"initialize" : "JH 6/6/2022 15:45",
+		"patchParameters" : "JH 6/6/2022 17:26",
+		"path" : "JH 6/6/2022 15:42",
+		"path:" : "JH 6/6/2022 17:25",
+		"postParameters" : "JH 6/6/2022 17:26",
+		"queryParameters" : "JH 6/6/2022 15:43",
+		"setHeader" : "JH 6/6/2022 15:44",
+		"token" : "JH 6/6/2022 15:57",
+		"token:" : "JH 6/6/2022 15:41",
+		"update:" : "JH 6/6/2022 18:05",
+		"username" : "JH 6/6/2022 15:57",
+		"username:" : "JH 6/6/2022 15:41" } }

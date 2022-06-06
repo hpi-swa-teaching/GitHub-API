@@ -1,4 +1,0 @@
-defaults
-defaultPage
-
-	^1

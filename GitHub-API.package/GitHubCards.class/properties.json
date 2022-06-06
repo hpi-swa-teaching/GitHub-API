@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"isAuthorizedUser" ],
-	"name" : "GitHubAPI",
+		 ],
+	"name" : "GitHubCards",
 	"pools" : [
 		 ],
-	"super" : "GitHubObject",
+	"super" : "GitHubColumn",
 	"type" : "normal" }

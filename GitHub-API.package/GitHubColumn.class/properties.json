@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"isAuthorizedUser" ],
-	"name" : "GitHubAPI",
+		"columnname",
+		"columnId" ],
+	"name" : "GitHubColumn",
 	"pools" : [
 		 ],
-	"super" : "GitHubObject",
+	"super" : "GitHubProject",
 	"type" : "normal" }

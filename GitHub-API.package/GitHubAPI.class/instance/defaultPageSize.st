@@ -1,4 +1,0 @@
-defaults
-defaultPageSize
-
-	^100
