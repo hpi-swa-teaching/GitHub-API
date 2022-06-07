@@ -1,4 +1,4 @@
-accessing
+parameters
 queryParameters
 
 	^ Dictionary newFrom: {

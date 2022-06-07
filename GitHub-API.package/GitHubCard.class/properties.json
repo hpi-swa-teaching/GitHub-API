@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cardnote",
 		"cardId" ],
 	"name" : "GitHubCard",
 	"pools" : [
 		 ],
-	"super" : "GitHubColumn",
+	"super" : "GitHubObject",
 	"type" : "normal" }

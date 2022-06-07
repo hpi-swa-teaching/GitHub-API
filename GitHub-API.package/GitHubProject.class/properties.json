@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"projectname",
 		"projectId" ],
 	"name" : "GitHubProject",
 	"pools" : [
 		 ],
-	"super" : "GitHubRepo",
+	"super" : "GitHubObject",
 	"type" : "normal" }

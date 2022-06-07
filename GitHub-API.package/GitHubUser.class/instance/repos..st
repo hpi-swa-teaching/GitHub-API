@@ -6,9 +6,8 @@ repos: aRepoName
 	repo := GitHubRepo new.
 	
 	repo
-		token: self token;
-		username: self username;
-		isAuthorizedUser: self isAuthorizedUser;
+		apiUser: self apiUser;
+		owner: self username;
 		reponame: aRepoName.
 		
 	^ repo

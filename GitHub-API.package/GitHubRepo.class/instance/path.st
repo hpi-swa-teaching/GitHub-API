@@ -1,4 +1,4 @@
 accessing
 path
 
-	^ '/repos/' , self username , '/' , self reponame
+	^ '/repos/' , self owner , '/' , self reponame

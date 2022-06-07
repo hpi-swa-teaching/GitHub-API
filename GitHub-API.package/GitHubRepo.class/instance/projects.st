@@ -5,8 +5,8 @@ projects
 	
 	projects := GitHubProjects new.
 	projects
-		token: self token;
-		username: self username;
+		apiUser: self apiUser;
+		owner: self owner;
 		reponame: self reponame.
 		
 	^ projects

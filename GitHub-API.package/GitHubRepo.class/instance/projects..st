@@ -5,14 +5,12 @@ projects: aProjectIdentifier
 	
 	project := GitHubProject new.
 	project
-		token: self token;
-		username: self username;
-		reponame: self reponame.
+		apiUser: self apiUser.
 		
 	(aProjectIdentifier isKindOf: Number)
 		ifTrue: [project projectId: aProjectIdentifier].
 	(aProjectIdentifier isKindOf: String)
-		ifTrue: [project projectname: aProjectIdentifier].
+		ifTrue: [project projectId: (self getProjectIdByName: aProjectIdentifier)].
 		
 	^ project
 		

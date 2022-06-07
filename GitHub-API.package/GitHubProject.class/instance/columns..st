@@ -4,14 +4,11 @@ columns: aColumnIdentifier
 	| column |
 	
 	column := GitHubColumn new.
-	column
-		token: self token;
-		username: self username;
-		projectId: self projectId.
+	column apiUser: self apiUser.
 	
 	(aColumnIdentifier isKindOf: Number)
 		ifTrue: [column columnId: aColumnIdentifier].
 	(aColumnIdentifier isKindOf: String)
-		ifTrue: [column columnname: aColumnIdentifier].
+		ifTrue: [column columnId: (self getColumnIdByName: aColumnIdentifier)].
 	
 	^ column

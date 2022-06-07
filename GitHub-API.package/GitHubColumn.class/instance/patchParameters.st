@@ -1,4 +1,4 @@
-accessing
+parameters
 patchParameters
 
 	^ Dictionary newFrom: {

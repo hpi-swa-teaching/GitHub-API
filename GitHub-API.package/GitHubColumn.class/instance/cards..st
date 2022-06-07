@@ -4,15 +4,12 @@ cards: aCardIdentifier
 	| card |
 	
 	card := GitHubCard new.
-	card
-		token: self token;
-		projectId: self projectId;
-		columnId: self columnId.
+	card apiUser: self apiUser.
 		
 	
 	(aCardIdentifier isKindOf: Integer)
 		ifTrue: [card cardId: aCardIdentifier].
 	(aCardIdentifier isKindOf: String)
-		ifTrue: [card cardnote: aCardIdentifier].
+		ifTrue: [card cardId: (self getCardIdByNote: aCardIdentifier)].
 		
 	^ card

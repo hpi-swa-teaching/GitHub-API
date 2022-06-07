@@ -3,7 +3,7 @@ update: updateParameterDictionary
 
 	| client response |
 	
-	(self patchParameters isEmpty) ifTrue: [self error: 'Update not allowed!'].
+	(self allowedMethods includes: 'update') ifFalse: [self error: 'Update not allowed!'].
 	
 	self checkParameters: updateParameterDictionary forRequirements: self patchParameters.
 	client := WebClient new.

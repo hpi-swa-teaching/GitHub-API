@@ -1,18 +1,18 @@
-accessing
+parameters
 queryParameters
 
 	^ Dictionary newFrom: {
 		'archived_state' -> (Dictionary newFrom: {
-			'type ' -> String.
+			'type' -> String.
 			'matches' -> {'all' . 'archived' . 'not_archived'}.	
 		}).
 		'per_page' -> (Dictionary newFrom: {
-			'type ' -> Integer.
+			'type' -> Integer.
 			'maxValue' -> 100.
 			'minValue' -> 1.
 		}).
 		'page' -> (Dictionary newFrom: {
-			'type ' -> Integer.
+			'type' -> Integer.
 			'minValue' -> 1.
 		})
 	}

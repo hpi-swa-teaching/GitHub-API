@@ -1,4 +1,4 @@
 accessing
 cardId
 
-	^ cardId ifNil: [self getCardId]
+	^ cardId

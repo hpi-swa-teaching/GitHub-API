@@ -1,4 +1,4 @@
-accessing
+parameters
 postParameters
 
-	^ Dictionary new.
+	^ Dictionary new

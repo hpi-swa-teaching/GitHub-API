@@ -6,8 +6,7 @@ repos
 	repos := GitHubRepos new.
 	
 	repos
-		token: self token;
-		username: self username;
-		isAuthorizedUser: self isAuthorizedUser.
+		apiUser: self apiUser;
+		owner: self username.
 		
 	^ repos

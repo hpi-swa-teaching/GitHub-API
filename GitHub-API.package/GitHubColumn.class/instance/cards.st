@@ -5,7 +5,7 @@ cards
 	
 	cards := GitHubCards new.
 	cards
-		token: self token;
+		apiUser: self apiUser;
 		columnId: self columnId.
 		
 	^ cards

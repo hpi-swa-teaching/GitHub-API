@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"columnname",
 		"columnId" ],
 	"name" : "GitHubColumn",
 	"pools" : [
 		 ],
-	"super" : "GitHubProject",
+	"super" : "GitHubObject",
 	"type" : "normal" }

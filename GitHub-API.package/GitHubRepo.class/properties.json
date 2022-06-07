@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"owner",
 		"reponame" ],
 	"name" : "GitHubRepo",
 	"pools" : [
 		 ],
-	"super" : "GitHubUser",
+	"super" : "GitHubObject",
 	"type" : "normal" }

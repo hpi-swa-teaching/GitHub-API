@@ -2,11 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
+		"allowedMethods" : "JH 6/7/2022 13:44",
+		"getIssueNumberByTitle:" : "JH 6/7/2022 14:49",
+		"getProjectIdByName:" : "JH 6/7/2022 14:47",
+		"issues" : "JH 6/7/2022 14:50",
+		"issues:" : "JH 6/7/2022 14:50",
+		"owner" : "JH 6/7/2022 12:56",
+		"owner:" : "JH 6/7/2022 12:56",
 		"patchParameters" : "JH 6/6/2022 17:42",
-		"path" : "JH 6/6/2022 15:54",
-		"postParameters" : "JH 6/6/2022 18:04",
-		"projects" : "JH 6/6/2022 16:12",
-		"projects:" : "JH 6/6/2022 16:12",
-		"queryParameters" : "JH 6/6/2022 18:04",
+		"path" : "JH 6/7/2022 12:56",
+		"projects" : "JH 6/7/2022 13:27",
+		"projects:" : "JH 6/7/2022 13:23",
 		"reponame" : "JH 6/6/2022 16:00",
 		"reponame:" : "JH 6/6/2022 15:54" } }

@@ -1,6 +1,6 @@
 accessing
 path
 
-	self isAuthorizedUser
+	((self apiUser username ) = (self username))
 		ifTrue: [^ '/user']
 		ifFalse: [^ '/users/' , self username]

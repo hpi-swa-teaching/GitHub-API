@@ -2,11 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"isAuthorizedUser" : "JH 6/6/2022 15:46",
-		"isAuthorizedUser:" : "JH 6/6/2022 15:46",
-		"patchParameters" : "JH 6/6/2022 18:05",
-		"path" : "JH 6/6/2022 15:47",
-		"postParameters" : "JH 6/6/2022 18:05",
-		"queryParameters" : "JH 6/6/2022 18:05",
-		"repos" : "JH 6/6/2022 15:53",
-		"repos:" : "JH 6/6/2022 15:53" } }
+		"allowedMethods" : "JH 6/7/2022 12:29",
+		"issues" : "JH 6/7/2022 14:43",
+		"path" : "JH 6/7/2022 12:55",
+		"repos" : "JH 6/7/2022 13:16",
+		"repos:" : "JH 6/7/2022 13:16",
+		"username" : "JH 6/7/2022 12:54",
+		"username:" : "JH 6/7/2022 12:54" } }

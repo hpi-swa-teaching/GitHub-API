@@ -1,12 +1,6 @@
 http methods
 delete
 
-	| client response |
+	(self allowedMethods includes: 'delete') ifFalse: [self error: 'Delete not allowed!'].
 	
-	client := WebClient new.
-	
-	response := client
-		httpDelete: self baseURL , self path
-		do: self setHeader.
-	
-	^ self handleResponse: response
+	^ self performDeleteRequest: (self baseURL , self path)

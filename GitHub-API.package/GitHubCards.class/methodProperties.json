@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"delete:" : "JH 6/6/2022 17:31",
-		"patchParameters" : "JH 6/6/2022 18:01",
+		"allowedMethods" : "JH 6/7/2022 13:43",
+		"columnId" : "JH 6/7/2022 13:11",
+		"columnId:" : "JH 6/7/2022 13:11",
 		"path" : "JH 6/6/2022 16:25",
-		"postParameters" : "JH 6/6/2022 17:44",
-		"queryParameters" : "JH 6/6/2022 17:30",
-		"update:" : "JH 6/6/2022 17:31" } }
+		"postParameters" : "JH 6/7/2022 12:02",
+		"queryParameters" : "JH 6/7/2022 12:09" } }

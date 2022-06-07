@@ -5,8 +5,7 @@ columns
 	
 	columns := GitHubColumns new.
 	columns
-		token: self token;
-		username: self username;
+		apiUser: self apiUser;
 		projectId: self projectId.
 	
 	^ columns

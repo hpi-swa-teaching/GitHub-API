@@ -6,13 +6,14 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"token",
-		"username",
+		"apiUser",
 		"path",
 		"baseURL",
 		"queryParameters",
 		"postParameters",
-		"patchParameters" ],
+		"patchParameters",
+		"moveParameters",
+		"allowedMethods" ],
 	"name" : "GitHubObject",
 	"pools" : [
 		 ],

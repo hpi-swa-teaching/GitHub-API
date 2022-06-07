@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"delete:" : "JH 6/6/2022 17:46",
-		"patchParameters" : "JH 6/6/2022 18:04",
-		"path" : "JH 6/6/2022 15:50",
+		"allowedMethods" : "JH 6/7/2022 13:43",
+		"owner" : "JH 6/7/2022 12:49",
+		"owner:" : "JH 6/7/2022 12:49",
+		"path" : "JH 6/7/2022 13:20",
 		"postParameters" : "JH 6/6/2022 17:45",
-		"queryParameters" : "JH 6/6/2022 15:49",
-		"update:" : "JH 6/6/2022 17:45" } }
+		"queryParameters" : "JH 6/6/2022 15:49" } }

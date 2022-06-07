@@ -1,12 +1,6 @@
 http methods
 get
 
-	| client response |
+	(self allowedMethods includes: 'get') ifFalse: [self error: 'Get not allowed!'].
 	
-	client := WebClient new.
-	
-	response := client
-		httpGet: self baseURL , self path
-		do: self setHeader.
-	
-	^ self handleResponse: response
+	^ self performGetRequest: self baseURL , self path

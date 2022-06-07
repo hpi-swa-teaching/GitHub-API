@@ -3,10 +3,9 @@ users
 
 	| users |
 	
-	users := GitHubApiUsers new.
+	users := GitHubUsers new.
 	
 	users
-		token: self token;
-		username: self username.
+		apiUser: self apiUser.
 		
 	^ users

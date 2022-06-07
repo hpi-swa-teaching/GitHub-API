@@ -5,8 +5,7 @@ user: aUsername
 	
 	user := GitHubUser new.
 	user
-		token: self token;
-		username: aUsername;
-		isAuthorizedUser: (self username = aUsername).
+		apiUser: self apiUser;
+		username: aUsername.
 	
 	^ user
