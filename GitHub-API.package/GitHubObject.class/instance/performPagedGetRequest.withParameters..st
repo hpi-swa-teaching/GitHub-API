@@ -15,11 +15,18 @@ performPagedGetRequest: aUrl withParameters: queryParametersDictionary
 		queryParametersDictionary at: 'page' put: page.
 		response := self 
 			performGetRequest: aUrl , (self encodeQueryParameters: queryParametersDictionary).
-		response size = 0 ifTrue: [^ result].
-		response do: [:res | 
-			result add: res.
-			keyNum := keyNum + 1
-		].
+		
+		((response isKindOf: Dictionary) and: [response includesKey: 'items'])
+			ifTrue: [
+				"search request"
+				(response at: 'items') size = 0 ifTrue: [^ result].
+				(response at: 'items') do: [:res | 
+				result add: res]]
+			ifFalse: [
+				"list request"
+				response size = 0 ifTrue: [^ result].
+				response do: [:res | 
+				result add: res]].
 		page := page + 1
 	].
 
