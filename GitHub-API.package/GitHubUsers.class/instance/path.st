@@ -1,4 +1,4 @@
 accessing
 path
 
-	^ '/users'
+	^ path ifNil: [path := '/users']

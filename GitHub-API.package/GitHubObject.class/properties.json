@@ -13,7 +13,9 @@
 		"postParameters",
 		"patchParameters",
 		"moveParameters",
-		"allowedMethods" ],
+		"searchParameters",
+		"allowedMethods",
+		"isSearchObject" ],
 	"name" : "GitHubObject",
 	"pools" : [
 		 ],
