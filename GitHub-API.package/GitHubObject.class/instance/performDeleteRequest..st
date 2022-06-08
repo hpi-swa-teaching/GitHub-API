@@ -7,5 +7,5 @@ performDeleteRequest: aUrl
 	response := client
 		httpDelete: aUrl
 		do: self setHeader.
-	
+
 	^ self handleResponse: response

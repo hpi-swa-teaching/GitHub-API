@@ -1,4 +1,4 @@
 parameters
 allowedMethods
 
-	^ {'get' . 'query'}
+	^ {'get' . 'query' . 'list'}

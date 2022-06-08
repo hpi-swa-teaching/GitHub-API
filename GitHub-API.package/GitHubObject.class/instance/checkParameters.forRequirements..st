@@ -19,7 +19,6 @@ checkParameters: paramsDict forRequirements: requirementsDict
 		(requirement includesKey: 'maxValue') 
 			ifTrue: [((value) <= (requirement at: 'maxValue'))
 					ifFalse: [self error: 'Value ' , value asString , ' is too large for parameter ' , parameter]].
-
 			
 		(requirement includesKey: 'matches') 
 			ifTrue: [((requirement at: 'matches') includes: value)

@@ -1,4 +1,4 @@
 parameters
 allowedMethods
 
-	^{'get' . 'update' . 'delete'}
+	^{'get' . 'update'}
