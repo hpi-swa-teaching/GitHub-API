@@ -1,0 +1,1 @@
+This class represents the cards endpoint from the GitHub-API.

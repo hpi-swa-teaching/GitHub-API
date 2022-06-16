@@ -1,0 +1,1 @@
+This class represents a specific project from the GitHub-API.

@@ -1,5 +1,5 @@
 methods
-users: aUsername
+user: aUsername
 
 	| user |
 	
