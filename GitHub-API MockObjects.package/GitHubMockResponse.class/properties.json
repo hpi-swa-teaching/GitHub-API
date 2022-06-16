@@ -1,0 +1,14 @@
+{
+	"category" : "GitHub-API MockObjects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"code" ],
+	"name" : "GitHubMockResponse",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
