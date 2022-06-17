@@ -5,7 +5,7 @@ handleResponse: response
 	
 	code := response code.
 	
-	(code = 200) ifTrue: [^ JsonObject newFrom: (STONJSON fromStream: response content readStream)].
+	(code = 200) ifTrue: [^ STONJSON fromStream: response content readStream].
 	(code = 201) ifTrue: [^ true].
 	(code = 304) ifTrue: [^ self error: 'Not modified'].
 	(code = 401) ifTrue: [^ self error: 'Requires authentication'].

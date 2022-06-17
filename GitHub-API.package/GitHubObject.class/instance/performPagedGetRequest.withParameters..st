@@ -5,7 +5,7 @@ performPagedGetRequest: aUrl withParameters: queryParametersDictionary
 
 	page := 1.
 	response := Dictionary new.
-	result := OrderedCollection new..
+	result := OrderedCollection new.
 	keyNum := 0.
 	
 	(queryParametersDictionary includesKey: 'per_page')
