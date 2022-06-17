@@ -1,12 +1,12 @@
 helper
-checkParameters: paramsDict forRequirements: requirementsDict
+checkParameters: aParameterDictionary forRequirements: aRequirementDictionary
 	
-	paramsDict keysAndValuesDo: [:parameter :value |
+	aParameterDictionary keysAndValuesDo: [:parameter :value |
 		| requirement requirementType |
 		
-		(requirementsDict includesKey: parameter) ifFalse: [self error: 'Unknown parameter ' , parameter].
+		(aRequirementDictionary includesKey: parameter) ifFalse: [self error: 'Unknown parameter ' , parameter].
 		
-		requirement := requirementsDict at: parameter.
+		requirement := aRequirementDictionary at: parameter.
 		requirementType := requirement at: 'type'.
 		
 		(value isKindOf: requirementType) 
@@ -25,6 +25,6 @@ checkParameters: paramsDict forRequirements: requirementsDict
 				ifFalse: [self error: 'Unknown option ' , value asString , ' for parameter ' , parameter]].
 		].
 	
-	self checkRequiredParameters: paramsDict forRequirements: requirementsDict.
+	self checkRequiredParameters: aParameterDictionary forRequirements: aRequirementDictionary.
 	
 	^ true

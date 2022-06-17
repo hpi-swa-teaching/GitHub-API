@@ -1,4 +1,4 @@
 accessing
-patchParameters: anObject
+patchParameters: aDictionary
 
-	patchParameters := anObject.
+	patchParameters := aDictionary.

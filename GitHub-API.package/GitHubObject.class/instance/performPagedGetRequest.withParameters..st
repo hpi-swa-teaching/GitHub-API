@@ -1,5 +1,5 @@
 http methods
-performPagedGetRequest: aUrl withParameters: queryParametersDictionary
+performPagedGetRequest: aUrl withParameters: aQueryParameterDictionary
 
 	| page response result keyNum |
 
@@ -8,13 +8,13 @@ performPagedGetRequest: aUrl withParameters: queryParametersDictionary
 	result := OrderedCollection new.
 	keyNum := 0.
 	
-	(queryParametersDictionary includesKey: 'per_page')
-		ifFalse: [queryParametersDictionary at: 'per_page' put: self listPerPage].
+	(aQueryParameterDictionary includesKey: 'per_page')
+		ifFalse: [aQueryParameterDictionary at: 'per_page' put: self listPerPage].
 	
 	[true and: [(result size) < self listMaxSize]] whileTrue: [
-		queryParametersDictionary at: 'page' put: page.
+		aQueryParameterDictionary at: 'page' put: page.
 		response := self 
-			performGetRequest: aUrl , (self encodeQueryParameters: queryParametersDictionary).
+			performGetRequest: aUrl , (self encodeQueryParameters: aQueryParameterDictionary).
 		
 		((response isKindOf: Dictionary) and: [response includesKey: 'items'])
 			ifTrue: [

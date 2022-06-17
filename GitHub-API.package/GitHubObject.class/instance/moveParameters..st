@@ -1,4 +1,4 @@
 accessing
-moveParameters: anObject
+moveParameters: aDictionary
 
-	moveParameters := anObject.
+	moveParameters := aDictionary.

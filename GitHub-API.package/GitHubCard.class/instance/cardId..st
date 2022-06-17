@@ -1,4 +1,4 @@
 accessing
-cardId: anObject
+cardId: anInteger
 
-	cardId := anObject.
+	cardId := anInteger

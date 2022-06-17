@@ -1,4 +1,4 @@
 accessing
-apiUser: anObject
+apiUser: aGitHubApiUser
 
-	apiUser := anObject.
+	apiUser := aGitHubApiUser

@@ -1,11 +1,11 @@
 helper
-encodeQueryParameters: queryParametersDictionary
+encodeQueryParameters: aQueryParameterDictionary
 
 	| queryString |
 	
 	queryString := '?'.
 	
-	queryParametersDictionary keysAndValuesDo: [:parameter :value |
+	aQueryParameterDictionary keysAndValuesDo: [:parameter :value |
 		queryString := queryString , parameter , '=' , (value asString) encodeForHTTP , '&'].
 
 	^ queryString

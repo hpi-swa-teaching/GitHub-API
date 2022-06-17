@@ -1,4 +1,4 @@
 accessing
-allowedMethods: anObject
+allowedMethods: anArray
 
-	allowedMethods := anObject.
+	allowedMethods := anArray

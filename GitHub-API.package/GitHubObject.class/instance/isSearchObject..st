@@ -1,4 +1,4 @@
 accessing
-isSearchObject: anObject
+isSearchObject: aBoolean
 
-	isSearchObject := anObject.
+	isSearchObject := aBoolean
