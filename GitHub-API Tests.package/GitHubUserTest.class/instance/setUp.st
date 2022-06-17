@@ -6,5 +6,5 @@ setUp
 	
 	self gitHubUser: GitHubUser new.
 	gitHubUser
-		apiUser: (GitHubAPI_User new username: username);
+		apiUser: (GitHubApiUser new username: username);
 		username: username
