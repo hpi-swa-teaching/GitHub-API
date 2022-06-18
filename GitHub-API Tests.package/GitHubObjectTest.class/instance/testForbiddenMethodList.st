@@ -7,4 +7,4 @@ testForbiddenMethodList
 	[self gitHubObject list]
 		on: Error do: [failed := true].
 	
-	self assert: failed.
+	self assert: failed

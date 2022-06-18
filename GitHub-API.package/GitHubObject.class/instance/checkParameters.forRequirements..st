@@ -22,8 +22,7 @@ checkParameters: aParameterDictionary forRequirements: aRequirementDictionary
 			
 		(requirement includesKey: 'matches') 
 			ifTrue: [((requirement at: 'matches') includes: value)
-				ifFalse: [self error: 'Unknown option ' , value asString , ' for parameter ' , parameter]].
-		].
+				ifFalse: [self error: 'Unknown option ' , value asString , ' for parameter ' , parameter]]].
 	
 	self checkRequiredParameters: aParameterDictionary forRequirements: aRequirementDictionary.
 	

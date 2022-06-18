@@ -1,5 +1,5 @@
 methods
-repos: aRepoName
+repos: aReponame
 
 	| repo |
 	
@@ -8,6 +8,6 @@ repos: aRepoName
 	repo
 		apiUser: self apiUser;
 		owner: self username;
-		reponame: aRepoName.
+		reponame: aReponame.
 		
 	^ repo

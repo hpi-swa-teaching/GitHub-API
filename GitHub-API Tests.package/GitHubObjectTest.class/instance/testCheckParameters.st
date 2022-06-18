@@ -15,4 +15,4 @@ testCheckParameters
 	[self gitHubObject checkParameters: parameters forRequirements: requirements]
 		on: Error do: [shouldFail := true].
 	
-	self assert: shouldFail.
+	self assert: shouldFail

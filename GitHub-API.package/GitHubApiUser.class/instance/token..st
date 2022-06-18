@@ -1,4 +1,4 @@
 accessing
-token: aString
+token: aGitHubApiToken
 
-	token := aString
+	token := aGitHubApiToken

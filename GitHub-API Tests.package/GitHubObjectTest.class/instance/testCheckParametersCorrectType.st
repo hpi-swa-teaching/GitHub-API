@@ -13,4 +13,4 @@ testCheckParametersCorrectType
 	[self gitHubObject checkParameters: parameters forRequirements: requirements]
 		on: Error do: [failed := true].
 	
-	self deny: failed.
+	self deny: failed

@@ -1,4 +1,4 @@
 accessing
-username: aString
+username: aUsername
 
-	username := aString
+	username := aUsername

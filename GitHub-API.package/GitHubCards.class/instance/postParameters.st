@@ -4,13 +4,13 @@ postParameters
 	^ Dictionary newFrom: {
 		'note' -> (Dictionary newFrom: {
 			'type' -> String.
-			'required' -> true.
+			'required' -> true
 		}).
 		'content_id' -> (Dictionary newFrom: {
-			'type' -> Integer.
+			'type' -> Integer
 		}).
 		'content_type' -> (Dictionary newFrom: {
 			'type' -> String.
-			'matches' -> {'Issue' . 'PullRequest'}.
+			'matches' -> {'Issue' . 'PullRequest'}
 		})
 	}

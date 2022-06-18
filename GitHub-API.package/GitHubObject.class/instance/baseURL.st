@@ -1,4 +1,4 @@
 accessing
 baseURL
 
-	^ 'https://api.github.com'
+	^ baseURL ifNil: [baseURL := 'https://api.github.com']

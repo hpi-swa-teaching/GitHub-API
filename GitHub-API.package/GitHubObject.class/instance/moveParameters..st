@@ -1,4 +1,4 @@
 accessing
 moveParameters: aDictionary
 
-	moveParameters := aDictionary.
+	moveParameters := aDictionary

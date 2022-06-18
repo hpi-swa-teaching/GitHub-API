@@ -1,4 +1,4 @@
 accessing
 patchParameters: aDictionary
 
-	patchParameters := aDictionary.
+	patchParameters := aDictionary

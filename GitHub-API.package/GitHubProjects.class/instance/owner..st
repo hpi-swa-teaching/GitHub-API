@@ -1,4 +1,4 @@
 accessing
-owner: anObject
+owner: aUsername
 
-	owner := anObject.
+	owner := aUsername

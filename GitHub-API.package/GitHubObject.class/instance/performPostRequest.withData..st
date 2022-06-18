@@ -1,12 +1,12 @@
 http methods
-performPostRequest: aUrl withData: aDictionary
+performPostRequest: aUrl withData: aDataDictionary
 
 	| client response |
 	client := WebClient new.
 	
 	response := client
 		httpPost: aUrl
-		content: (JsonObject newFrom: aDictionary) asJsonString
+		content: (JsonObject newFrom: aDataDictionary) asJsonString
 		type: 'application/json'
 		do: self setHeader.
 	

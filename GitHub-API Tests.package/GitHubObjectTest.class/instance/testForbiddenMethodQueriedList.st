@@ -7,4 +7,4 @@ testForbiddenMethodQueriedList
 	[self gitHubObject move: (Dictionary newFrom: {})]
 		on: Error do: [failed := true].
 	
-	self assert: failed.
+	self assert: failed

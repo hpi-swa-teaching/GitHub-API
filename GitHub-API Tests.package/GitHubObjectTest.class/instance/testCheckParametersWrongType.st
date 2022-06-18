@@ -13,4 +13,4 @@ testCheckParametersWrongType
 	[self gitHubObject checkParameters: parameters forRequirements: requirements]
 		on: Error do: [failed := true].
 	
-	self assert: failed.
+	self assert: failed

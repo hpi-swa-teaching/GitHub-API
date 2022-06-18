@@ -1,5 +1,5 @@
 helper
-getProjectIdByName: aString
+getProjectIdByName: aProjectname
 
 	|projects project|
 	
@@ -10,5 +10,5 @@ getProjectIdByName: aString
 		reponame: self reponame.
 
 	projects := projects list.
-	project := projects detect: [:p | (p at: 'name') = aString] ifNone: [].
-	project ifNil: [self error: 'Unknown project ' , aString , '!'] ifNotNil: [^ (project at: 'id')]
+	project := projects detect: [:p | (p at: 'name') = aProjectname] ifNone: [].
+	project ifNil: [self error: 'Unknown project ' , aProjectname , '!'] ifNotNil: [^ (project at: 'id')]

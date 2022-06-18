@@ -7,4 +7,4 @@ testForbiddenMethodDelete
 	[self gitHubObject delete]
 		on: Error do: [failed := true].
 	
-	self assert: failed.
+	self assert: failed

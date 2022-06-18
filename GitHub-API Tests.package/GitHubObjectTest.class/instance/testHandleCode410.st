@@ -8,4 +8,4 @@ testHandleCode410
 	[self gitHubObject handleResponse: response]
 		on: Error do: [failed := true].
 	
-	self assert: failed.
+	self assert: failed
