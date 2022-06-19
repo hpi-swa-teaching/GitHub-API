@@ -1,0 +1,4 @@
+defaults
+isSearchObject
+
+	^ true
