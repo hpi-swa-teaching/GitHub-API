@@ -1,7 +1,7 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'Counter',
+      #baseline : 'GitHub-API',
       #directory : 'packages',
       #platforms : [ #squeak ],
       #load : [ 'tests' ]
@@ -9,7 +9,7 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #packages : [ 'Counter-Core' ]
+      #packages : [ 'GitHub-API' ]
     }
   }
 }
