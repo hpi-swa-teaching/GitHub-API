@@ -4,7 +4,7 @@
   uses: hpi-swa/setup-smalltalkCI@1.1.0
   with:
     # Smalltalk image selection (see smalltalkCI's list of supported images)
-    smalltalk-version: 
+    smalltalk-version: [Squeak64-trunk, Squeak64-5.3, Squeak64-5.2]
     # GitHub slug of the smalltalkCI source repository
     smalltalkCI-source: # optional, default is hpi-swa/smalltalkCI
     # Branch or tag to use from smalltalkCI repository
