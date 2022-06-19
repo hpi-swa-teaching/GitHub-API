@@ -6,10 +6,10 @@ baseline: spec
 		do: [
 			spec
 				package: 'GItHub-API';
-				package: 'GitHub-API Tests' with: [spec requires: #('default')];
 				package: 'GitHub-API MockObjects';
+				package: 'GitHub-API Tests' with: [spec requires: #('default')];
 				yourself.
 			spec
-				group: 'default' with: #('GItHub-API', 'GitHub-API MockObjects');
+				group: 'default' with: #('GItHub-API' 'GitHub-API MockObjects');
 				group: 'tests' with: #('GitHub-API Tests')];
 				yourself
