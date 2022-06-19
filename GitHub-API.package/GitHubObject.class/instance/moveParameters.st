@@ -1,4 +1,0 @@
-parameters
-moveParameters
-
-	^ Dictionary new

@@ -1,4 +1,0 @@
-parameters
-queryParameters
-
-	^ Dictionary new
