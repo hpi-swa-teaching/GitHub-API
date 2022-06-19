@@ -2,7 +2,7 @@ SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'GitHub-API',
-      #directory : '.',
+      #directory : 'packages',
       #platforms : [ #squeak ],
       #load : [ 'tests' ]
     }
