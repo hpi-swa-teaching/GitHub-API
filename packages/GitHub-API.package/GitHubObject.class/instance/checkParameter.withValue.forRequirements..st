@@ -8,17 +8,6 @@ checkParameter: aParameter withValue: aValue forRequirements: aRequirementDictio
 	requirement := aRequirementDictionary at: aParameter.
 	requirementType := requirement at: 'type'.
 	
-	(aValue isKindOf: requirementType) 
-		ifFalse: [self error: 'Wrong data type ' , aValue class asString , ' for parameter ' , aParameter , '!'].
+	self value: aValue isCorrectType: requirementType for: aParameter.
 	
-	(requirement includesKey: 'minValue') 
-		ifTrue: [(aValue >= (requirement at: 'minValue'))
-			ifFalse: [self error: 'Value ' , aValue asString , ' is too small for parameter ' , aParameter]].
-	
-	(requirement includesKey: 'maxValue') 
-		ifTrue: [((aValue) <= (requirement at: 'maxValue'))
-				ifFalse: [self error: 'Value ' , aValue asString , ' is too large for parameter ' , aParameter]].
-		
-	(requirement includesKey: 'matches') 
-		ifTrue: [((requirement at: 'matches') includes: aValue)
-			ifFalse: [self error: 'Unknown option ' , aValue asString , ' for parameter ' , aParameter]].
+	self checkConstraintsOf: requirement for: aValue asParameter: aParameter.
