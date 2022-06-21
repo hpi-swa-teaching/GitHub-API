@@ -17,4 +17,4 @@ buildResultFragment: aResultCollection forResponse: aResponseDictionary
 				aResponseDictionary do: [:resultFragment | 
 					aResultCollection add: resultFragment]].
 			
-	^ OrderedCollection newFrom: #(aResultCollection isEmpty)
+	^ {aResultCollection . isEmpty}

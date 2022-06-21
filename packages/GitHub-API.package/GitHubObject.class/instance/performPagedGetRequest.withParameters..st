@@ -19,10 +19,9 @@ performPagedGetRequest: aUrl withParameters: aQueryParameterDictionary
 		newResult := self buildResultFragment: result forResponse: response.
 		
 		(newResult at: 2)
-			ifTrue: [ ^ newResult at: 1 ]
-			ifFalse: [ result = newResult at: 1 ].
+			ifTrue: [^ newResult at: 1]
+			ifFalse: [result = (newResult at: 1)].
 		
-		page := page + 1
-	].
+		page := page + 1].
 
 	^ result
