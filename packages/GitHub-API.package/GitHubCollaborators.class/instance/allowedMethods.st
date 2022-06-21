@@ -1,0 +1,4 @@
+parameters
+allowedMethods
+
+	^ {'get' . 'list'}

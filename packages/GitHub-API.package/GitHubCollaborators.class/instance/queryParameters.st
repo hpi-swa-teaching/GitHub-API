@@ -2,8 +2,9 @@ parameters
 queryParameters
 
 	^ Dictionary newFrom: {
-		'since' -> (Dictionary newFrom: {
-			'type' -> Integer
+		'affiliation' -> (Dictionary newFrom: {
+			'type' -> String.
+			'matches' -> {'outside' . 'direct' . 'all'}			
 		}).
 		'per_page' ->  (Dictionary newFrom: {
 			'type' -> Integer.

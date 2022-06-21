@@ -7,7 +7,7 @@ handleResponse: aWebResponse
 	
 	^ (self responseCodeDictionary includesKey: code) 
 		ifTrue: [(self responseCodeDictionary at: code) value: aWebResponse]
-		ifFalse: [code].
+		ifFalse: [self error: code].
 	
 	
 	
