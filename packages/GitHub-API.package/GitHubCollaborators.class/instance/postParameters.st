@@ -1,5 +1,5 @@
 parameters
-bodyParameters
+postParameters
 
 	^ Dictionary newFrom: {
 		'permission' -> (Dictionary newFrom: {

@@ -3,7 +3,7 @@ add: aUsername withPermissions: aPermissionDictionary
 
 	| result |
 	
-	self checkParameters: aPermissionDictionary forRequirements: self bodyParameters.
+	self checkParameters: aPermissionDictionary forRequirements: self postParameters.
 	
 	"adjust path to add a collaborator"
 	self path: self path , '/' , aUsername.
