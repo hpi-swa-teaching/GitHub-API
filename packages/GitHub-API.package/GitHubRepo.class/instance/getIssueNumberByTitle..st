@@ -1,5 +1,5 @@
 helper
-getIssueNumberByTitle: aString
+getIssueNumberByTitle: anIssueTitle
 
 	|issues issue|
 	
@@ -10,5 +10,5 @@ getIssueNumberByTitle: aString
 		reponame: self reponame.
 
 	issues := issues list.
-	issue := issues detect: [:p | (p at: 'title') = aString] ifNone: [].
-	issue ifNil: [self error: 'Unknown issue ' , aString , '!'] ifNotNil: [^ (issue at: 'number')]
+	issue := issues detect: [:p | (p at: 'title') = anIssueTitle] ifNone: [].
+	issue ifNil: [self error: 'Unknown issue ' , anIssueTitle , '!'] ifNotNil: [^ (issue at: 'number')]

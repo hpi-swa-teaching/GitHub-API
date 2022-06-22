@@ -1,4 +1,4 @@
 accessing
-searchParameters: anObject
+searchParameters: aDictionary
 
-	searchParameters := anObject.
+	searchParameters := aDictionary

@@ -1,4 +1,4 @@
 accessing
-postParameters: anObject
+postParameters: aDictionary
 
-	postParameters := anObject.
+	postParameters := aDictionary

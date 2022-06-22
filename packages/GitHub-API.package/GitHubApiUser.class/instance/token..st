@@ -1,4 +1,4 @@
 accessing
-token: anObject
+token: aGitHubApiToken
 
-	token := anObject.
+	token := aGitHubApiToken

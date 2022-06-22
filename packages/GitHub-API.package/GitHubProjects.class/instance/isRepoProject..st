@@ -1,4 +1,4 @@
 accessing
-isRepoProject: anObject
+isRepoProject: aBoolean
 
-	isRepoProject := anObject.
+	isRepoProject := aBoolean

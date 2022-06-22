@@ -1,4 +1,0 @@
-test forbidden Methods
-testForbiddenMethodSearch
-
-	GitHubTestForbiddenMethods new testForbiddenMethodSearchWith: self gitHubIssue

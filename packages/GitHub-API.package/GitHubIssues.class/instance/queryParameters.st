@@ -3,23 +3,23 @@ queryParameters
 
 	^ Dictionary newFrom: {
 		'milestone' -> (Dictionary newFrom: {
-			'type' -> String.
+			'type' -> String
 		}).
 		'state' -> (Dictionary newFrom: {
 			'type' -> String.
 			'matches' -> {'open' . 'closed' . 'all'}
 		}).
 		'assignee' -> (Dictionary newFrom: {
-			'type' -> String.
+			'type' -> String
 		}).
 		'creator' -> (Dictionary newFrom: {
-			'type' -> String.
+			'type' -> String
 		}).
 		'mentioned' -> (Dictionary newFrom: {
-			'type' -> Array.
+			'type' -> Array
 		}).
 		'labels' -> (Dictionary newFrom: {
-			'type' -> Array.
+			'type' -> Array
 		}).
 		'sort' -> (Dictionary newFrom: {
 			'type' -> String.
@@ -30,15 +30,15 @@ queryParameters
 			'matches' -> {'asc' . 'desc'}
 		}).
 		'since' -> (Dictionary newFrom: {
-			'type' -> Array.
+			'type' -> Array
 		}).
 		'per_page' ->  (Dictionary newFrom: {
 			'type' -> Integer.
 			'minValue' -> 1.
-			'maxValue' -> 100.
+			'maxValue' -> 100
 		}).
 		'page' ->  (Dictionary newFrom: {
 			'type' -> Integer.
-			'minValue' -> 1.
+			'minValue' -> 1
 		})
 	}

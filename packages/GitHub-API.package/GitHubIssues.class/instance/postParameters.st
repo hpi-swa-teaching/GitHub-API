@@ -4,21 +4,21 @@ postParameters
 	^ Dictionary newFrom: {
 		'title' -> (Dictionary newFrom: {
 			'type' -> Integer.
-			'required' -> true.
+			'required' -> true
 		}).
 		'body' -> (Dictionary newFrom: {
-			'type' -> String.
+			'type' -> String
 		}).
 		'assignee' -> (Dictionary newFrom: {
-			'type' -> String.
+			'type' -> String
 		}).
 		'milestone' -> (Dictionary newFrom: {
-			'type' -> String.
+			'type' -> String
 		}).
 		'labels' -> (Dictionary newFrom: {
-			'type' -> Array.
+			'type' -> Array
 		}).
 		'assignees' -> (Dictionary newFrom: {
-			'type' -> Array.
-		}).
+			'type' -> Array
+		})
 	}

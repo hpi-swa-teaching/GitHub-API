@@ -1,4 +1,0 @@
-test forbidden Methods
-testForbiddenMethodQueriedList
-
-	GitHubTestForbiddenMethods new testForbiddenMethodListWith: self gitHubIssue

@@ -3,20 +3,20 @@ patchParameters
 
 	^ Dictionary newFrom: {
 		'name' -> (Dictionary newFrom: {
-			'type' -> String.
+			'type' -> String
 		}).
 		'body' -> (Dictionary newFrom: {
-			'type' -> String.
+			'type' -> String
 		}).
 		'state' -> (Dictionary newFrom: {
 			'type' -> String.
-			'matches' -> {'open' . 'closed'}.
+			'matches' -> {'open' . 'closed'}
 		}).
 		'organization_permission' -> (Dictionary newFrom: {
 			'type' -> String.
-			'matches' -> {'read'. 'write' . 'admin' . 'none'}.
+			'matches' -> {'read'. 'write' . 'admin' . 'none'}
 		}).
 		'private' -> (Dictionary newFrom: {
-			'type' -> Boolean.
-		}).
+			'type' -> Boolean
+		})
 	}

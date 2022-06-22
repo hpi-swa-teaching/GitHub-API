@@ -1,4 +1,0 @@
-test forbidden methods for owned repo
-testForbiddenMethodMove
-
-	GitHubTestForbiddenMethods new testForbiddenMethodMoveWith: self gitHubRepos

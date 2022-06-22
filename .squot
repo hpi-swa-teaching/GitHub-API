@@ -1,8 +1,6 @@
 OrderedDictionary {
-	'GitHub-API.package' : #SquotCypressCodeSerializer,
-	'GitHub-API MockObjects.package' : #SquotCypressCodeSerializer,
-	'GitHub-API Tests.package' : #SquotCypressCodeSerializer,
-	'packages/GitHub-API Tests.package' : #SquotCypressCodeSerializer,
 	'packages/GitHub-API.package' : #SquotCypressCodeSerializer,
-	'packages/GitHub-API MockObjects.package' : #SquotCypressCodeSerializer
+	'packages/GitHub-API MockObjects.package' : #SquotCypressCodeSerializer,
+	'packages/GitHub-API Tests.package' : #SquotCypressCodeSerializer,
+	'packages/BaselineOfGitHub-API.package' : #SquotCypressCodeSerializer
 }

@@ -1,4 +1,0 @@
-test forbidden Methods
-testForbiddenMethodMove
-
-	GitHubTestForbiddenMethods new testForbiddenMethodMoveWith: self gitHubIssue

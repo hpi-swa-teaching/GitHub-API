@@ -1,4 +1,4 @@
 accessing
-projectId: anObject
+projectId: anInteger
 
-	projectId := anObject.
+	projectId := anInteger

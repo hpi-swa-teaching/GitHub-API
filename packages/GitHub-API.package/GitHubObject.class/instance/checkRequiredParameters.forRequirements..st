@@ -1,16 +1,11 @@
 helper
-checkRequiredParameters: parametersDict forRequirements: requirementsDict
+checkRequiredParameters: aParameterDictionary forRequirements: aRequirementDictionary
 
 	| requiredParameters |
-	requiredParameters := OrderedCollection new.
 	
-	requirementsDict keysAndValuesDo: [:parameter : value |
-		(value includesKey: 'required')
-			ifTrue: [((value at: 'required') = true)
-					ifTrue: [requiredParameters add: parameter]]].
-	
+	requiredParameters := self findRequirementsIn: aRequirementDictionary.
 	
 	requiredParameters do: [:parameter |
-			(parametersDict includesKey: parameter) ifFalse: [self error: 'Missing required parameter ' , parameter]].
+			(aParameterDictionary includesKey: parameter) ifFalse: [self error: 'Missing required parameter ' , parameter]].
 	
 	^ true

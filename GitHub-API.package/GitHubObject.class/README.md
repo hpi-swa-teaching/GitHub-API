@@ -1,1 +1,0 @@
-Acts as super class for all possible GitHub-Objects. Is responsible for performing http requests and defining the base structure of each object.

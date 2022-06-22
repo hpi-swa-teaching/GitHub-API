@@ -1,4 +1,0 @@
-test forbidden Methods
-testForbiddenMethodDelete
-
-	GitHubTestForbiddenMethods new testForbiddenMethodDeleteWith: self gitHubIssue

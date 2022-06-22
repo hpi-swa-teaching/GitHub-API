@@ -1,1 +1,0 @@
-This class represents the issues endpoint from the GitHub-API.

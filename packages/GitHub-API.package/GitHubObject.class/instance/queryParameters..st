@@ -1,4 +1,4 @@
 accessing
-queryParameters: anObject
+queryParameters: aDictionary
 
-	queryParameters := anObject.
+	queryParameters := aDictionary

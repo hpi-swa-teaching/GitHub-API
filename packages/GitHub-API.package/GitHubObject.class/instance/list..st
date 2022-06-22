@@ -1,11 +1,11 @@
 http methods
-list: queryParametersDictionary
+list: aQueryParameterDictionary
 
 	
 	((self allowedMethods includes: 'list') and: (self allowedMethods includes: 'query'))
 		ifFalse: [self error: 'Queried list not allowed!'].
 		
-	self checkParameters: queryParametersDictionary forRequirements: self queryParameters.
+	self checkParameters: aQueryParameterDictionary forRequirements: self queryParameters.
 	
-	^ self performPagedGetRequest: self baseURL , self path withParameters: queryParametersDictionary
+	^ self performPagedGetRequest: self baseURL , self path withParameters: aQueryParameterDictionary
 	

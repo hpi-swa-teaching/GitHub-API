@@ -1,5 +1,5 @@
 helper
-getCardIdByNote: aString
+getCardIdByNote: aCardNote
 
 	| cards card |
 	
@@ -10,5 +10,5 @@ getCardIdByNote: aString
 	
 	cards := cards list.
 	
-	card := cards detect: [:p | (p at: 'note') = aString] ifNone: [].
-	card ifNil: [self error: 'Unknown card ' , aString , '!'] ifNotNil: [^ (card at: 'id')]
+	card := cards detect: [:p | (p at: 'note') = aCardNote] ifNone: [].
+	card ifNil: [self error: 'Unknown card ' , aCardNote , '!'] ifNotNil: [^ (card at: 'id')]

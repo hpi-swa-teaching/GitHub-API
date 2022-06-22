@@ -1,4 +1,4 @@
-defaults
+accessing
 listMaxSize
 
-	^ 1000
+	^ listMaxSize ifNil: [listMaxSize := 1000]

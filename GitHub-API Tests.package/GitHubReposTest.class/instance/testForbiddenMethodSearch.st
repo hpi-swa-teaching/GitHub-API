@@ -1,4 +1,0 @@
-test forbidden methods for owned repo
-testForbiddenMethodSearch
-
-	GitHubTestForbiddenMethods new testForbiddenMethodSearchWith: self gitHubRepos

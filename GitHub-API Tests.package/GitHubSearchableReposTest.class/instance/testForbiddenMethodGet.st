@@ -1,4 +1,0 @@
-test forbidden methods
-testForbiddenMethodGet
-
-	GitHubTestForbiddenMethods new testForbiddenMethodGetWith: self gitHubRepos

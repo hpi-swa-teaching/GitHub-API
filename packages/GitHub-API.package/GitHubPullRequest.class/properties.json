@@ -1,0 +1,16 @@
+{
+	"category" : "GitHub-API",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"owner",
+		"reponame",
+		"pullNumber" ],
+	"name" : "GitHubPullRequest",
+	"pools" : [
+		 ],
+	"super" : "GitHubObject",
+	"type" : "normal" }

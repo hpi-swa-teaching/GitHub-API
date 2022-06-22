@@ -1,4 +1,4 @@
-defaults
+accessing
 listPerPage
 
-	^ 100
+	^ listPerPage ifNil: [listPerPage := 100]

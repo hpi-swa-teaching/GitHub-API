@@ -17,9 +17,10 @@ queryParameters
 		'per_page' ->  (Dictionary newFrom: {
 			'type' -> Integer.
 			'minValue' -> 1.
-			'maxValue' -> 100.
+			'maxValue' -> 100
 		}).
 		'page' ->  (Dictionary newFrom: {
 			'type' -> Integer.
-			'minValue' -> 1.
-		})}
+			'minValue' -> 1
+		})
+	}

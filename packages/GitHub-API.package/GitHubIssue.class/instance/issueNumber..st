@@ -1,4 +1,4 @@
 accessing
-issueNumber: anObject
+issueNumber: anInteger
 
-	issueNumber := anObject.
+	issueNumber := anInteger

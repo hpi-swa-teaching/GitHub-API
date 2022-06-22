@@ -1,12 +1,12 @@
 http methods
-performPatchRequest: aUrl withData: aDictionary
+performPatchRequest: aUrl withData: aDataDictionary
 
 	| client response |
 	client := WebClient new.
 	
 	response := client
 		httpPatch: aUrl
-		content: (JsonObject newFrom: aDictionary) asJsonString
+		content: (JsonObject newFrom: aDataDictionary) asJsonString
 		type: 'application/json'
 		do: self setHeader.
 	

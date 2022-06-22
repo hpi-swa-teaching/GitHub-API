@@ -1,5 +1,5 @@
 helper
-getColumnIdByName: aString
+getColumnIdByName: aColumnname
 
 	| columns column |
 	
@@ -10,5 +10,5 @@ getColumnIdByName: aString
 	
 	columns := columns list.
 	
-	column := columns detect: [:p | (p at: 'name') = aString] ifNone: [].
-	column ifNil: [self error: 'Unknown column ' , aString , '!'] ifNotNil: [^ (column at: 'id')]
+	column := columns detect: [:p | (p at: 'name') = aColumnname] ifNone: [].
+	column ifNil: [self error: 'Unknown column ' , aColumnname , '!'] ifNotNil: [^ (column at: 'id')]

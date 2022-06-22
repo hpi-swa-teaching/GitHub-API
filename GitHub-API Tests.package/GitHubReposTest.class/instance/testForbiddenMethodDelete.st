@@ -1,4 +1,0 @@
-test forbidden methods for owned repo
-testForbiddenMethodDelete
-
-	GitHubTestForbiddenMethods new testForbiddenMethodDeleteWith: self gitHubRepos
