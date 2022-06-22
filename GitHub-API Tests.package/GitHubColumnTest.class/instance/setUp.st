@@ -6,4 +6,4 @@ setUp
 	self gitHubColumn: GitHubColumn new.
 	self gitHubColumn
 		apiUser: (GitHubApiUser new username: userName);
-		columnId: 3
+		columnId: 1234

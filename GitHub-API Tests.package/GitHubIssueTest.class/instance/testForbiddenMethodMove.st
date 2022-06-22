@@ -1,12 +1,4 @@
 test forbidden Methods
 testForbiddenMethodMove
 
-	| failed unimportantDictionary |
-	
-	unimportantDictionary := Dictionary new.
-	failed := false.
-	
-	[self gitHubIssue move: unimportantDictionary]
-		on: Error do: [failed := true].
-
-	self assert: failed
+	GitHubTestForbiddenMethods new testForbiddenMethodMoveWith: self gitHubIssue

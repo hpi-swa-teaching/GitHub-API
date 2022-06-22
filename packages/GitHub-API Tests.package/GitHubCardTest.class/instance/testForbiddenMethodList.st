@@ -1,0 +1,4 @@
+test forbidden methods
+testForbiddenMethodList
+
+	GitHubTestForbiddenMethods new testForbiddenMethodListWith: self gitHubCard
