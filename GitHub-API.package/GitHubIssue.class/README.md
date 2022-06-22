@@ -1,0 +1,1 @@
+This class represents a specific issue from the GitHub-API.

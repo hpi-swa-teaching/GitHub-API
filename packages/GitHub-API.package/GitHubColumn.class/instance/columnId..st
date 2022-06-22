@@ -1,4 +1,4 @@
 accessing
-columnId: anInteger
+columnId: anObject
 
-	columnId := anInteger
+	columnId := anObject.

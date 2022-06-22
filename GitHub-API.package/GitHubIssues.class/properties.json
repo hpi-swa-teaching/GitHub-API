@@ -1,0 +1,15 @@
+{
+	"category" : "GitHub-API",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "KG 6/12/2022 14:28",
+	"instvars" : [
+		"owner",
+		"reponame" ],
+	"name" : "GitHubIssues",
+	"pools" : [
+		 ],
+	"super" : "GitHubObject",
+	"type" : "normal" }

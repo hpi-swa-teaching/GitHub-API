@@ -1,0 +1,14 @@
+{
+	"category" : "GitHub-API Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"gitHubApi" ],
+	"name" : "GitHubApiTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

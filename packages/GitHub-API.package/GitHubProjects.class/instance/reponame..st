@@ -1,4 +1,4 @@
 accessing
-reponame: aReponame
+reponame: anObject
 
-	reponame := aReponame
+	reponame := anObject.

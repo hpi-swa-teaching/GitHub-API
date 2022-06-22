@@ -1,0 +1,1 @@
+This class stores the username and OAUTH token of the authenticated GitHub user.
