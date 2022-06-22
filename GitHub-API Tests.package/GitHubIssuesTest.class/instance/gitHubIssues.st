@@ -1,3 +1,0 @@
-accessing
-gitHubIssues
-	^ gitHubIssues

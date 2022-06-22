@@ -1,4 +1,0 @@
-defaults
-listPerPage
-
-	^ 100

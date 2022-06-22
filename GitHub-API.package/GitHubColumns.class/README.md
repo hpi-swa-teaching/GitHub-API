@@ -1,1 +1,0 @@
-This class represents the columns endpoint from the GitHub-API.

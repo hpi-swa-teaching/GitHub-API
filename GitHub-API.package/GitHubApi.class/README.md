@@ -1,1 +1,0 @@
-This class is the base class for all GitHub-API calls.

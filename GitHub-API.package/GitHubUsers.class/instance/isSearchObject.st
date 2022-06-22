@@ -1,4 +1,0 @@
-defaults
-isSearchObject
-
-	^ true

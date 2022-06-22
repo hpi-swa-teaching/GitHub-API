@@ -1,1 +1,0 @@
-This class represents the projects endpoint from the GitHub-API.

@@ -1,1 +1,0 @@
-This class mocks the response-codes for GitHubObject #handleResponse:
