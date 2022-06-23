@@ -2,7 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"token" : "JH 6/7/2022 12:51",
-		"token:" : "JH 6/18/2022 15:42",
-		"username" : "JH 6/7/2022 12:51",
-		"username:" : "JH 6/18/2022 15:42" } }
+		"isTokenSet" : "JH 6/23/2022 12:55",
+		"isUsernameSet" : "JH 6/23/2022 12:58",
+		"setToken" : "JH 6/23/2022 12:56",
+		"setUsername" : "JH 6/23/2022 12:58",
+		"token" : "JH 6/23/2022 12:57",
+		"token:" : "JH 6/23/2022 13:00",
+		"username" : "JH 6/23/2022 12:59",
+		"username:" : "JH 6/23/2022 12:59" } }

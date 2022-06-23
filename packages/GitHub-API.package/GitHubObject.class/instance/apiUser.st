@@ -1,4 +1,4 @@
 accessing
 apiUser
 
-	^ apiUser
+	^ apiUser ifNil: [apiUser := GitHubApiUser new]
