@@ -5,4 +5,4 @@ testUserWithUsername
 	
 	userName := 'testUser'.
 	
-	self assert: (self gitHubApi user: userName) username = userName
+	self assert: (self gitHubApi users: userName) username = userName
