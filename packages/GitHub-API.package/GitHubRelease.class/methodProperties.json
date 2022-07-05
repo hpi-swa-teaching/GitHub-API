@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"allowedMethods" : "JH 7/5/2022 16:19",
+		"assets" : "JH 7/5/2022 17:03",
+		"assets:" : "JH 7/5/2022 17:08",
+		"getAssetIdByName:" : "JH 7/5/2022 17:08",
+		"getReleaseId" : "JH 7/5/2022 17:02",
+		"owner" : "JH 7/5/2022 16:15",
+		"owner:" : "JH 7/5/2022 16:18",
+		"patchParameters" : "JH 7/5/2022 16:21",
+		"path" : "JH 7/5/2022 16:43",
+		"releaseIdentifier" : "JH 7/5/2022 16:28",
+		"releaseIdentifier:" : "JH 7/5/2022 16:59",
+		"reponame" : "JH 7/5/2022 16:15",
+		"reponame:" : "JH 7/5/2022 16:17" } }

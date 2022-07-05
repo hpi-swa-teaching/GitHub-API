@@ -1,0 +1,17 @@
+{
+	"category" : "GitHub-API",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"owner",
+		"reponame",
+		"releaseId",
+		"releaseIdentifier" ],
+	"name" : "GitHubRelease",
+	"pools" : [
+		 ],
+	"super" : "GitHubObject",
+	"type" : "normal" }
