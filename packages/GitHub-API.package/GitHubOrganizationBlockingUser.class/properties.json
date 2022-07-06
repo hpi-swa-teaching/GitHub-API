@@ -1,0 +1,15 @@
+{
+	"category" : "GitHub-API",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"username",
+		"organizationname" ],
+	"name" : "GitHubOrganizationBlockingUser",
+	"pools" : [
+		 ],
+	"super" : "GitHubObject",
+	"type" : "normal" }

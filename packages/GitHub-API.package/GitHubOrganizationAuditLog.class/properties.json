@@ -1,0 +1,14 @@
+{
+	"category" : "GitHub-API",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"organizationname" ],
+	"name" : "GitHubOrganizationAuditLog",
+	"pools" : [
+		 ],
+	"super" : "GitHubObject",
+	"type" : "normal" }

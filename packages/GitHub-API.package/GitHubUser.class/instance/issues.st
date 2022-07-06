@@ -3,7 +3,8 @@ issues
 
 	| issues |
 	
-	(self apiUser username = self username) ifFalse: [self error: 'You can only get all issues for the authorized user!']. 
+	(self apiUser username = self username) 
+		ifFalse: [self error: 'You can only get all issues for the authorized user!']. 
 	
 	issues := GitHubIssues new.
 	issues
