@@ -9,7 +9,7 @@
 		"owner",
 		"reponame",
 		"commitSHA" ],
-	"name" : "GitHubPullRequests",
+	"name" : "GitHubCommit",
 	"pools" : [
 		 ],
 	"super" : "GitHubObject",

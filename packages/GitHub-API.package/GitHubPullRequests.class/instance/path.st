@@ -1,4 +1,7 @@
 accessing
 path
 
-	^ path ifNil: [path := '/repos/' , self owner , '/' , self reponame , '/pulls']
+	^ commitSHA 
+			ifNil: [^ '/repos/' , owner , '/' , reponame , '/pulls']
+			ifNotNil: [^ '/repos/' , owner , '/' , reponame , '/commits/' , commitSHA , '/pulls'] 
+				

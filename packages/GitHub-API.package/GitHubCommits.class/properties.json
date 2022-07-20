@@ -7,9 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"owner",
-		"reponame",
-		"commitSHA" ],
-	"name" : "GitHubPullRequests",
+		"reponame" ],
+	"name" : "GitHubCommits",
 	"pools" : [
 		 ],
 	"super" : "GitHubObject",
