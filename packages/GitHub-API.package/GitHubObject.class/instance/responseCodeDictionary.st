@@ -15,7 +15,13 @@ responseCodeDictionary
 	
 	responseCodeDictionary := Dictionary new.
 	
-	responseCodeDictionary at: 200 put: [:aWebResponse | STONJSON fromStream: aWebResponse content readStream].
+	responseCodeDictionary at: 200 put: [:aWebResponse | 
+		| lastModified json |
+		lastModified := aWebResponse headerAt: 'last-modified' ifAbsent: nil.
+		json := STONJSON fromStream: aWebResponse content readStream. 
+		lastModified ifNotNil: [json at: 'last_modified' put: lastModified].
+		
+		json].
 	responseCodeDictionary at: 201 put: [:aWebResponse | true].
 	responseCodeDictionary at: 204 put: [:aWebResponse | true].
 	responseCodeDictionary at: 304 put: [:aWebResponse | self error: 'Not modified'].
