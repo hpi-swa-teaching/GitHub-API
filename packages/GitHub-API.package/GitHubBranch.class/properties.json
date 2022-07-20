@@ -1,0 +1,16 @@
+{
+	"category" : "GitHub-API",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"owner",
+		"reponame",
+		"branchname" ],
+	"name" : "GitHubBranch",
+	"pools" : [
+		 ],
+	"super" : "GitHubObject",
+	"type" : "normal" }
