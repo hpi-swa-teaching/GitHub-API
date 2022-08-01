@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "sst 8/1/2022 22:56",
+		"testPath" : "sst 8/1/2022 22:57",
+		"testUninitializedPath" : "sst 8/1/2022 23:03",
+		"testUninitializedPathWithCurrentUser" : "sst 8/1/2022 23:01",
+		"testUninitializedPathWithoutUsername" : "sst 8/1/2022 22:58",
+		"testUsername" : "sst 8/1/2022 22:56" } }

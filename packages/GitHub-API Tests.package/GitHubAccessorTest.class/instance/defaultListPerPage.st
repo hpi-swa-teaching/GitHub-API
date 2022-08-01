@@ -1,0 +1,4 @@
+defaults
+defaultListPerPage
+	
+	^ 100

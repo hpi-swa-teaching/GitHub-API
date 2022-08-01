@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "sst 8/1/2022 23:10",
+		"testOwner" : "sst 8/1/2022 23:11",
+		"testPath" : "sst 8/1/2022 23:12",
+		"testReponame" : "sst 8/1/2022 23:10" } }

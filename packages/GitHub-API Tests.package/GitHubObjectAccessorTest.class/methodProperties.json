@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "sst 8/1/2022 22:49",
+		"testBaseURL" : "sst 8/1/2022 22:52",
+		"testListMaxSize" : "sst 8/1/2022 22:50",
+		"testListPerPage" : "sst 8/1/2022 22:50",
+		"testPath" : "sst 8/1/2022 22:53",
+		"testUninitializedBaseURL" : "sst 8/1/2022 22:55" } }
