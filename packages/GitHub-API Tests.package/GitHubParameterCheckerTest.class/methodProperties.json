@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"gitHubParameterChecker" : "JH 8/4/2022 14:28",
+		"gitHubParameterChecker:" : "JH 8/4/2022 14:28",
+		"setUp" : "JH 8/4/2022 14:36",
+		"testCorrectMatches" : "JH 8/4/2022 14:44",
+		"testCorrectMaxValue" : "JH 8/4/2022 14:37",
+		"testCorrectMinValue" : "JH 8/4/2022 14:38",
+		"testCorrectMixedType" : "JH 8/4/2022 14:44",
+		"testCorrectSingleType" : "JH 8/4/2022 14:43",
+		"testMissingRequired" : "JH 8/4/2022 14:41",
+		"testUnkownParameter" : "JH 8/4/2022 14:39",
+		"testWrongMatches" : "JH 8/4/2022 14:44",
+		"testWrongMaxValue" : "JH 8/4/2022 14:38",
+		"testWrongMinValue" : "JH 8/4/2022 14:38",
+		"testWrongMixedType" : "JH 8/4/2022 14:43",
+		"testWrongSingleType" : "JH 8/4/2022 14:43" } }

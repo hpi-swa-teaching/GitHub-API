@@ -1,4 +1,4 @@
-test repos
+test users
 testRepos
-
-	self assert: self gitHubApi repos isSearchObject
+	
+	self assert: ((self gitHubApi repos allowedMethods) = {'search'})

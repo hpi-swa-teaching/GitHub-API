@@ -1,3 +1,4 @@
 accessing
-gitHubProjects: anObject
-	gitHubProjects := anObject
+gitHubProjects: aGitHubProjects
+
+	gitHubProjects := aGitHubProjects

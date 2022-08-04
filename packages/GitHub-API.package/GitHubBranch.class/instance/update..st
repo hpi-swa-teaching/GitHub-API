@@ -1,15 +1,13 @@
 http methods
 update: anUpdateParameterDictionary
 
-	| client response |
+	| parameterChecker |
 	
-	self checkParameters: anUpdateParameterDictionary forRequirements: self patchParameters.
-	client := WebClient new.
+	parameterChecker := GitHubParameterChecker new.
+	parameterChecker
+		parameters: anUpdateParameterDictionary;
+		requirements: self patchParameters.
+		
+	parameterChecker check.
 	
-	response := client
-		httpPost: self baseURL , (self path) , '/rename'
-		content: (JsonObject newFrom: anUpdateParameterDictionary) asJsonString
-		type: 'application/json'
-		do: self setHeader.
-
-	^ self handleResponse: response
+	^ self performPostRequest: self baseURL , self path , '/rename' withData: anUpdateParameterDictionary.

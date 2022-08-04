@@ -2,6 +2,7 @@ http methods
 performPatchRequest: aUrl withData: aDataDictionary
 
 	| client response |
+	
 	client := WebClient new.
 	
 	response := client

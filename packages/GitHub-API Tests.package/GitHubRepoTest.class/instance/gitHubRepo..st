@@ -1,3 +1,4 @@
 accessing
-gitHubRepo: anObject
-	gitHubRepo := anObject
+gitHubRepo: aGitHubRepo
+
+	gitHubRepo := aGitHubRepo

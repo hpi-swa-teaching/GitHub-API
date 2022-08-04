@@ -2,13 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"gitHubProjects" : "pb 6/22/2022 00:45",
-		"gitHubProjects:" : "pb 6/22/2022 00:45",
-		"setUp" : "pb 6/22/2022 00:52",
+		"gitHubProjects" : "JH 8/4/2022 13:20",
+		"gitHubProjects:" : "JH 8/4/2022 13:20",
+		"setUp" : "JH 8/4/2022 13:20",
 		"testForbiddenMethodDelete" : "pb 6/22/2022 21:04",
 		"testForbiddenMethodMove" : "pb 6/22/2022 21:04",
 		"testForbiddenMethodSearch" : "pb 6/22/2022 21:04",
 		"testForbiddenMethodUpdate" : "pb 6/22/2022 21:04",
-		"testPathForNotRepoProject" : "pb 6/22/2022 00:54",
-		"testPathForRepoProject" : "pb 6/22/2022 00:51",
-		"testisRepoProject" : "pb 6/22/2022 00:56" } }
+		"testPathForRepoProject" : "pb 6/22/2022 00:51" } }

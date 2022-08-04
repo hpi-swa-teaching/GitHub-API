@@ -3,10 +3,8 @@ repos
 
 	| repos |
 	
-	repos := GitHubRepos new.
-	
+	repos := GitHubSearchRepos new.
 	repos
-		apiUser: self apiUser;
-		isSearchObject: true.
+		apiUser: self apiUser.
 		
 	^ repos

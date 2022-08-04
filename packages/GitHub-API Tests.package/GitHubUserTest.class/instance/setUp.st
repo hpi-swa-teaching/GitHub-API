@@ -2,6 +2,7 @@ running
 setUp
 	
 	| username |
+	
 	username := 'AuthorizedUser'.
 	
 	self gitHubUser: GitHubUser new.

@@ -2,6 +2,7 @@ http methods
 performGetRequest: aUrl
 
 	| client response |
+	
 	client := WebClient new.
 	
 	response := client

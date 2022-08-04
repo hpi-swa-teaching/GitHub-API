@@ -1,4 +1,4 @@
 accessing
 path
 
-	^ path ifNil: [path := '/repos/' , self owner , '/' , self reponame , '/collaborators']
+	^	'/repos/' , self owner , '/' , self reponame , '/collaborators'

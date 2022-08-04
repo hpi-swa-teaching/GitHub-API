@@ -1,3 +1,4 @@
 accessing
 gitHubColumn
+
 	^ gitHubColumn

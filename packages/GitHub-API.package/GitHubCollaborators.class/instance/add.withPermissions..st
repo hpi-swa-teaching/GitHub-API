@@ -1,14 +1,13 @@
 http methods
 add: aUsername withPermissions: aPermissionDictionary
 
-	| result |
+	| parameterChecker |
 	
-	self checkParameters: aPermissionDictionary forRequirements: self postParameters.
+	parameterChecker := GitHubParameterChecker new.
+	parameterChecker
+		parameters: aPermissionDictionary;
+		requirements: self postParameters.
+		
+	parameterChecker check.
 	
-	"adjust path to add a collaborator"
-	self path: self path , '/' , aUsername.
-	result := self performPutRequest: self baseURL , self path withData: aPermissionDictionary.
-	"reset path after collaborator is added"
-	self path: nil.
-	
-	^ result
+	^ self performPutRequest: self baseURL , self path , '/' , aUsername withData: aPermissionDictionary.

@@ -1,3 +1,4 @@
 accessing
-gitHubCard: anObject
-	gitHubCard := anObject
+gitHubCard: aGitHubCard
+
+	gitHubCard := aGitHubCard

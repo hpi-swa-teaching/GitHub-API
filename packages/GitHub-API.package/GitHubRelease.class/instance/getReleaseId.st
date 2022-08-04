@@ -1,10 +1,11 @@
 helper
 getReleaseId
 
+	| release |
+	
 	(self releaseIdentifier isKindOf: Number)
-		ifTrue: [^ self releaseIdentifier]
-		ifFalse: [
-			| release |
-			release := self get.
-			^ release at: 'id'
-		].
+		ifTrue: [^ self releaseIdentifier].
+		
+	release := self get.
+			
+	^ release at: 'id'

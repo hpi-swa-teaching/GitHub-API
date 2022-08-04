@@ -1,3 +1,4 @@
 accessing
-gitHubIssues: anObject
-	gitHubIssues := anObject
+gitHubIssues: aGitHubIssues
+
+	gitHubIssues := aGitHubIssues

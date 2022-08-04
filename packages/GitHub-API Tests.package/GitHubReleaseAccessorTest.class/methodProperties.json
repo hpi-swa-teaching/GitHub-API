@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "JH 8/4/2022 13:05",
+		"testOwner" : "JH 8/4/2022 13:05",
+		"testPathForLatestRelease" : "JH 8/4/2022 13:05",
+		"testPathForNumberedRelease" : "JH 8/4/2022 13:05",
+		"testPathForOtherStringRelease" : "JH 8/4/2022 13:05",
+		"testReleaseIdentifier" : "JH 8/4/2022 13:05",
+		"testReponame" : "JH 8/4/2022 13:05" } }

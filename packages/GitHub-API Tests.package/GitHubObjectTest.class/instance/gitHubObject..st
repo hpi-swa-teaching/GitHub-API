@@ -1,4 +1,4 @@
 accessing
-gitHubObject: anObject
+gitHubObject: aGitHubObject
 
-	gitHubObject := anObject.
+	gitHubObject := aGitHubObject

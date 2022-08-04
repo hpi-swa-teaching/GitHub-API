@@ -3,6 +3,8 @@ organizations
 
 	| organizations |
 	
-	organizations := GitHubOrganizations new apiUser: self apiUser.
+	organizations := GitHubOrganizations new.
+	organizations 
+		apiUser: self apiUser.
 		
 	^ organizations

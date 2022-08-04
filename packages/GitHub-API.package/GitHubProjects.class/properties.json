@@ -7,8 +7,7 @@
 	"commentStamp" : "KG 6/12/2022 14:29",
 	"instvars" : [
 		"owner",
-		"reponame",
-		"isRepoProject" ],
+		"reponame" ],
 	"name" : "GitHubProjects",
 	"pools" : [
 		 ],

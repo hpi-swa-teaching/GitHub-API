@@ -1,0 +1,15 @@
+{
+	"category" : "GitHub-API",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parameters",
+		"requirements" ],
+	"name" : "GitHubParameterChecker",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

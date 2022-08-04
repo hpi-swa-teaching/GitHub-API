@@ -1,7 +1,14 @@
 http methods
 merge: aMergeParameterDictionary
-
-	self checkParameters: aMergeParameterDictionary forRequirements: self mergeParameters.
+	
+	| parameterChecker |
+	
+	parameterChecker := GitHubParameterChecker new.
+	parameterChecker
+		parameters: aMergeParameterDictionary;
+		requirements: self mergeParameters.
+		
+	parameterChecker check.
 	
 	^ self performPostRequest:  self baseURL , '/repos/' , self owner , '/' , self reponame , '/merges' 
 			withData: aMergeParameterDictionary

@@ -4,6 +4,7 @@ testRepos
 	| failed |
 	
 	failed := false.
+	
 	[self gitHubUser repos] 
 		on: Error do: [failed := true].
 	

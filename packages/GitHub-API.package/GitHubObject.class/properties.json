@@ -15,7 +15,6 @@
 		"moveParameters",
 		"searchParameters",
 		"allowedMethods",
-		"isSearchObject",
 		"listMaxSize",
 		"listPerPage" ],
 	"name" : "GitHubObject",

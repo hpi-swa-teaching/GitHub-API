@@ -2,6 +2,7 @@ http methods
 performDeleteRequest: aUrl
 
 	| client response |
+	
 	client := WebClient new.
 	
 	response := client

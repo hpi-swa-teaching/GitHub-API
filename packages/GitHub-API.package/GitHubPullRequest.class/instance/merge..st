@@ -1,13 +1,14 @@
 methods
 merge: aMergeParameterDictionary
 
-	| result |
+	| parameterChecker |
 	
-	self checkParameters: aMergeParameterDictionary forRequirements: self putParameters.
+	parameterChecker := GitHubParameterChecker new.
+	parameterChecker
+		parameters: aMergeParameterDictionary;
+		requirements: self putParameters.
+		
+	parameterChecker check.
 	
-	self path: self path , '/merge'.
-	result := self performPatchRequest: self baseURL , self path withData: aMergeParameterDictionary.
-	self path: nil.
-	
-	^ result
+	^ self performPatchRequest: self baseURL , self path , '/merge' withData: aMergeParameterDictionary.
 	

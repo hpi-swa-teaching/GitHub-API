@@ -1,11 +1,17 @@
 http methods
 update: anUpdateParameterDictionary
 
-	| client response |
+	| client response parameterChecker |
 	
 	(self allowedMethods includes: 'update') ifFalse: [self error: 'Update not allowed!'].
 	
-	self checkParameters: anUpdateParameterDictionary forRequirements: self patchParameters.
+	parameterChecker := GitHubParameterChecker new.
+	parameterChecker
+		parameters: anUpdateParameterDictionary;
+		requirements: self patchParameters.
+		
+	parameterChecker check.
+	
 	client := WebClient new.
 	
 	response := client

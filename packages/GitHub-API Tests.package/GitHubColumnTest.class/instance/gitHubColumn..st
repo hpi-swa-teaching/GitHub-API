@@ -1,3 +1,4 @@
 accessing
-gitHubColumn: anObject
-	gitHubColumn := anObject
+gitHubColumn: aGitHubColumn
+
+	gitHubColumn := aGitHubColumn

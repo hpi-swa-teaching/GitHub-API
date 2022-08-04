@@ -4,6 +4,7 @@ testIssuesForNotAuthorizedUser
 	| failed |
 	
 	self gitHubUser username: 'NotAuthorizedUser'.
+	
 	failed := false.
 	
 	[self gitHubUser issues] 

@@ -4,6 +4,7 @@ testUser
 	| failed |
 	
 	failed := false.
+	
 	[self gitHubApi user] 
 		on: Error do: [failed := true].
 	

@@ -2,9 +2,9 @@ running
 setUp
 	
 	| username |
+	
 	username := 'AuthorizedUser'.
 	
-	self gitHubRepos: GitHubRepos new.
+	self gitHubRepos: GitHubSearchRepos new.
 	self gitHubRepos
-		apiUser: (GitHubApiUser new username: username);
-		isSearchObject: true
+		apiUser: (GitHubApiUser new username: username)

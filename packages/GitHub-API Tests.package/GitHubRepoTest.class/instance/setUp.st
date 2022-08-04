@@ -4,6 +4,7 @@ setUp
 	| apiUser username |
 	
 	apiUser := GitHubApiUser new.
+	
 	username := 'AuthorizedUser'.
 		
 	self gitHubRepo: GitHubRepo new.
