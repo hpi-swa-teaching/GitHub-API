@@ -1,0 +1,4 @@
+test allowed methods
+testAllowedMethodQueriedList
+
+	GitHubTestAllowedMethods new testAllowedMethodQueriedListWithObject: self gitHubCards andParameters: Dictionary new

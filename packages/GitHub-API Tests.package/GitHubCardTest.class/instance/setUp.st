@@ -1,11 +1,15 @@
 running
 setUp
 
-	| userName |
+	| apiUser |
 	
-	userName := 'AuthorizedUser'.
+	apiUser := GitHubApiUser new.
+	apiUser
+		username: 'AuthorizedUser';
+		token: 'aToken'.
 	
 	self gitHubCard: GitHubCard new.
 	self gitHubCard
-		apiUser: (GitHubApiUser new username: userName);
-		cardId: 1234
+		apiUser: apiUser;
+		cardId: 1234;
+		webClient: GitHubMockWebClient new

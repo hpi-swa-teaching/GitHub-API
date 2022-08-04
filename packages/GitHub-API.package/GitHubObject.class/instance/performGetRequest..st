@@ -3,7 +3,7 @@ performGetRequest: aUrl
 
 	| client response |
 	
-	client := WebClient new.
+	client := self webClient.
 	
 	response := client
 		httpGet: aUrl

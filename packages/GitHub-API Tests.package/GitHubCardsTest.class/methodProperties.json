@@ -4,7 +4,12 @@
 	"instance" : {
 		"gitHubCards" : "JH 8/4/2022 13:12",
 		"gitHubCards:" : "JH 8/4/2022 13:12",
-		"setUp" : "JH 8/4/2022 13:12",
+		"setUp" : "pb 8/4/2022 16:56",
+		"testAllowedMethodCreate" : "pb 8/4/2022 17:15",
+		"testAllowedMethodGet" : "pb 8/4/2022 17:00",
+		"testAllowedMethodList" : "pb 8/4/2022 16:45",
+		"testAllowedMethodQueriedGet" : "pb 8/4/2022 17:17",
+		"testAllowedMethodQueriedList" : "pb 8/4/2022 17:28",
 		"testForbiddenMethodDelete" : "pb 6/22/2022 21:21",
 		"testForbiddenMethodMove" : "pb 6/22/2022 21:21",
 		"testForbiddenMethodSearch" : "pb 6/22/2022 21:21",
