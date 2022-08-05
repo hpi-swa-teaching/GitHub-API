@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAllowedMethodCreateWithObject:andParameters:" : "pb 8/4/2022 17:14",
+		"testAllowedMethodDeleteWith:" : "pb 8/4/2022 16:30",
+		"testAllowedMethodGetWith:" : "pb 8/4/2022 16:31",
+		"testAllowedMethodListWith:" : "pb 8/4/2022 16:31",
+		"testAllowedMethodMoveWithObject:andParameters:" : "pb 8/4/2022 17:14",
+		"testAllowedMethodQueriedGetWithObject:andParameters:" : "pb 8/4/2022 17:16",
+		"testAllowedMethodQueriedListWithObject:andParameters:" : "pb 8/4/2022 17:20",
+		"testAllowedMethodSearchWithObject:andParameters:" : "pb 8/4/2022 17:20",
+		"testAllowedMethodUpdateWithObject:andParameters:" : "pb 8/4/2022 17:22" } }

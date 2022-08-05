@@ -1,0 +1,4 @@
+defaults
+defaultContent
+
+	^ '{"key1":"Value1","key2":"Value2"}'

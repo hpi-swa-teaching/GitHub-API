@@ -5,8 +5,8 @@ setUp
 	
 	apiUser := GitHubApiUser new.
 	apiUser
-		username: 'SWTGitHubAPI';
-		token: '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'.
+		username: 'aUsername';
+		token: 'aToken'.
 		
 	self gitHubApi: GitHubApi new.
 	self gitHubApi apiUser: apiUser

@@ -5,6 +5,8 @@ responseCodeDictionary
 	
 	responseCodeDictionary := Dictionary new.
 	
+	responseCodeDictionary at: 0 put: [:aWebResponse | self error: 'This is a TestCase running green!']. 
+	
 	responseCodeDictionary at: 200 put: [:aWebResponse | self handle200: aWebResponse].
 	responseCodeDictionary at: 201 put: [:aWebResponse | true].
 	responseCodeDictionary at: 204 put: [:aWebResponse | true].

@@ -3,7 +3,7 @@ performDeleteRequest: aUrl
 
 	| client response |
 	
-	client := WebClient new.
+	client := self webClient.
 	
 	response := client
 		httpDelete: aUrl

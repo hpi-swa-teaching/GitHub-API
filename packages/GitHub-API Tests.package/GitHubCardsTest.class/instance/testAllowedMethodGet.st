@@ -1,0 +1,4 @@
+test allowed methods
+testAllowedMethodGet
+
+	GitHubTestAllowedMethods new testAllowedMethodGetWith: self gitHubCards

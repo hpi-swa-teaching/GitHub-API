@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"httpDelete:do:" : "pb 8/4/2022 15:57",
+		"httpGet:do:" : "pb 8/4/2022 15:58",
+		"httpPatch:content:type:do:" : "pb 8/4/2022 15:58",
+		"httpPost:content:type:do:" : "pb 8/4/2022 15:58",
+		"httpPut:content:type:do:" : "pb 8/4/2022 15:58",
+		"testCode" : "pb 8/4/2022 15:57" } }

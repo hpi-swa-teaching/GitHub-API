@@ -1,4 +1,4 @@
-test http methods
+test response code handling
 testHandleCode204
 
 	| response |

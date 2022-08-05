@@ -3,7 +3,7 @@ performPatchRequest: aUrl withData: aDataDictionary
 
 	| client response |
 	
-	client := WebClient new.
+	client := self webClient.
 	
 	response := client
 		httpPatch: aUrl

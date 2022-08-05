@@ -2,4 +2,6 @@ helpers
 setToken
 
 	(UIManager default requestPassword:  'What is your GitHub OAuth token?') 
-		ifNotNil: [:answer | token := answer]
+		ifNotNil: [:answer | 
+			token := answer.
+			self testAuth]

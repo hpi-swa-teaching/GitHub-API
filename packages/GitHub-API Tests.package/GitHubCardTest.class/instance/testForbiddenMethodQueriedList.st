@@ -1,4 +1,4 @@
 test forbidden methods
 testForbiddenMethodQueriedList
 
-	GitHubTestForbiddenMethods new testForbiddenMethodListWith: self gitHubCard
+	GitHubTestForbiddenMethods new testForbiddenMethodQueriedListWith: self gitHubCard

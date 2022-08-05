@@ -9,6 +9,7 @@
 		"apiUser",
 		"path",
 		"baseURL",
+		"webClient",
 		"queryParameters",
 		"postParameters",
 		"patchParameters",
