@@ -40,5 +40,15 @@ Now run your first API request and get your current user profile (inspect the re
 ````
 api user get
 ```` 
+## Examples
+````
+api user repos create: (Dictionary newFrom: {'name' -> 'TestRepo'. 'private' -> true}).
+repo := api user repos: 'TestRepo'.
+repo get.
+
+repo issues create: (Dictionary newFrom: {'title' -> 'New issue!'}).
+issue := repo issues: 'New issue!'.
+issue update: (Dictionary newFrom: {'state' -> 'closed'}).
+````
 All available endpoints and parameters can be explored in the offical [GitHub Rest API Documenatation](https://docs.github.com/en/rest).
 (Please keep in mind, that not all endpoints are implemented so far!)
