@@ -3,7 +3,7 @@ postParameters
 
 	^ Dictionary newFrom: {
 		'title' -> (Dictionary newFrom: {
-			'type' -> Integer.
+			'type' -> {String . Integer}.
 			'required' -> true
 		}).
 		'body' -> (Dictionary newFrom: {

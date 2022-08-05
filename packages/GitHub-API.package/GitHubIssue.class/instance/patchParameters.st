@@ -3,11 +3,14 @@ patchParameters
 
 	^ Dictionary newFrom: {
 		'title' -> (Dictionary newFrom: {
-			'type' -> Integer.
-			'required' -> true
+			'type' -> {String . Integer}
 		}).
 		'body' -> (Dictionary newFrom: {
 			'type' -> String
+		}).
+		'state' -> (Dictionary newFrom: {
+			'type' -> String.
+			'matches' -> {'open' . 'closed'}
 		}).
 		'assignee' -> (Dictionary newFrom: {
 			'type' -> String
