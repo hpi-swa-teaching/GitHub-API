@@ -1,6 +1,8 @@
 methods
 auditLog
 
+	"returns the audit log"
+
 	| auditLog |
 	
 	auditLog := GitHubOrganizationAuditLog new.

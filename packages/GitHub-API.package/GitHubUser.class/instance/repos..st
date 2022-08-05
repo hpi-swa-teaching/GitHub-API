@@ -1,6 +1,8 @@
 methods
 repos: aReponame
 
+	"returns a specific repository"
+
 	| repo |
 	
 	repo := GitHubRepo new.

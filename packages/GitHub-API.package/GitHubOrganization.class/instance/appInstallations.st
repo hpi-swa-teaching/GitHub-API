@@ -1,6 +1,8 @@
 methods
 appInstallations
 
+	"returns all app installations"
+
 	| appInstallations |
 	
 	appInstallations := GitHubOrganizationAppInstallations new.

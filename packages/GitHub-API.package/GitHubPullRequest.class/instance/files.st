@@ -1,6 +1,8 @@
 methods
 files
 
+	"returns all files"
+
 	| files |
 	
 	files := GitHubPullRequestFiles new

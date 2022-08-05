@@ -1,13 +1,6 @@
 http methods
 update: anUpdateParameterDictionary
 
-	| parameterChecker |
-	
-	parameterChecker := GitHubParameterChecker new.
-	parameterChecker
-		parameters: anUpdateParameterDictionary;
-		requirements: self patchParameters.
-		
-	parameterChecker check.
+	self checkParameters: anUpdateParameterDictionary forRequirements: self patchParameters.
 	
 	^ self performPostRequest: self baseURL , self path , '/rename' withData: anUpdateParameterDictionary.

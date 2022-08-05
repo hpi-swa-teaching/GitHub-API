@@ -1,0 +1,1 @@
+representation of all apps of an organization

@@ -1,6 +1,8 @@
 methods
 organizations
 
+	"returns all organizatons"
+
 	| organizations |
 	
 	organizations := GitHubOrganizations new.

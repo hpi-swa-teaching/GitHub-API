@@ -1,6 +1,8 @@
 methods
 collaborators
 
+	"returns all collaborators"
+
 	| collaborators |
 	
 	collaborators := GitHubCollaborators new.

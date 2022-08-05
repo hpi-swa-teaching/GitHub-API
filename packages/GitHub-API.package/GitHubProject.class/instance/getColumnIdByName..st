@@ -11,4 +11,6 @@ getColumnIdByName: aColumnname
 	columns := columns list.
 	
 	column := columns detect: [:p | (p at: 'name') = aColumnname] ifNone: [].
-	column ifNil: [self error: 'Unknown column ' , aColumnname , '!'] ifNotNil: [^ (column at: 'id')]
+	column 
+		ifNil: [self error: 'Unknown column ' , aColumnname , '!'] 
+		ifNotNil: [^ (column at: 'id')]

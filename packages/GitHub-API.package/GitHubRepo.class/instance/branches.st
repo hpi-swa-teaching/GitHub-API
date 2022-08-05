@@ -1,6 +1,8 @@
 methods
 branches
 
+	"returns all branches"
+
 	| branches |
 	
 	branches := GitHubBranches new.

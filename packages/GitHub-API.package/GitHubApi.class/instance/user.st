@@ -1,6 +1,8 @@
 methods
 user
-
+	
+	"returns the authenticated user"
+	
 	| user |
 	
 	user := GitHubUser new.

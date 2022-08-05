@@ -1,6 +1,8 @@
 methods
 blocks
 
+	"returns all blocked users"
+
 	| blocks |
 	
 	blocks := GitHubOrganizationBlockingUsers new.

@@ -1,1 +1,1 @@
-This class represents a specific column from the GitHub-API.
+representation of a specific column

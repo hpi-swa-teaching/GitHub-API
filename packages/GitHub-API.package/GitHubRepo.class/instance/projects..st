@@ -1,6 +1,8 @@
 methods
 projects: aProjectIdentifier
 
+	"returns a specific project identified by project id or project name"
+
 	| project |
 	
 	project := GitHubProject new.

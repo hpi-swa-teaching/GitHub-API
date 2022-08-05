@@ -1,14 +1,9 @@
 methods
 merge: aMergeParameterDictionary
 
-	| parameterChecker |
-	
-	parameterChecker := GitHubParameterChecker new.
-	parameterChecker
-		parameters: aMergeParameterDictionary;
-		requirements: self putParameters.
-		
-	parameterChecker check.
+	"merge the pull request"
+
+	self checkParameters: aMergeParameterDictionary forRequirements: self putParameters.
 	
 	^ self performPatchRequest: self baseURL , self path , '/merge' withData: aMergeParameterDictionary.
 	

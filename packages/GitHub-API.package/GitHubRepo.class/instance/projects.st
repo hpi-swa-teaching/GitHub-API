@@ -1,6 +1,8 @@
 methods
 projects
 
+	"returns all projects"
+
 	| projects |
 	
 	projects := GitHubProjects new.

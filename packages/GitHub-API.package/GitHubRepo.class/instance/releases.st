@@ -1,6 +1,8 @@
 methods
 releases
 
+	"returns all releases"
+
 	| releases |
 	
 	releases := GitHubReleases new.

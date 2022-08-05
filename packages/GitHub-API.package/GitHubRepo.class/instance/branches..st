@@ -1,6 +1,8 @@
 methods
 branches: aBranchname
 
+	"returns a specific branch"
+
 	| branch |
 	
 	branch := GitHubBranch new.

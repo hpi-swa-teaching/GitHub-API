@@ -1,6 +1,8 @@
 methods
 latest
 
+	"returns the latest release"
+
 	| release |
 	
 	release := GitHubRelease new.

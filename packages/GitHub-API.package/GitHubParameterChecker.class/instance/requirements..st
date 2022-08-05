@@ -1,4 +1,4 @@
 accessing
-requirements: anObject
+requirements: aDictionary
 
-	requirements := anObject.
+	requirements := aDictionary

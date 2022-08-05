@@ -1,6 +1,8 @@
 methods
 pullRequests: aPullNumber
 
+	"returns a pull requests identified by pull number"
+
 	| pullRequest |
 	
 	pullRequest := GitHubPullRequest new.

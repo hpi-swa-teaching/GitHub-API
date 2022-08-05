@@ -1,12 +1,14 @@
 parameters
 search: aSearchParameterDictionary
-	
+
+	"search for users"
+
 	| result |
 	
-	"Search path differs from normal users path"
+	"search uses a different endpoint"
 	self path: '/search/users'.
 	result := super search: aSearchParameterDictionary.
-	"Search path isn't considered a default path -> needs to be reset"
+	"reset path, as search endpoint isn't considered as default"
 	self path: nil.
 	
-	^ result
+	^ result	

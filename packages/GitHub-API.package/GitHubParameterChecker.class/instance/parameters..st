@@ -1,4 +1,4 @@
 accessing
-parameters: anObject
+parameters: aDictionary
 
-	parameters := anObject.
+	parameters := aDictionary

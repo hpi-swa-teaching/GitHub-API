@@ -1,6 +1,8 @@
 methods
 columns: aColumnIdentifier
 
+	"returns a specific column identified by id or name"
+
 	| column |
 	
 	column := GitHubColumn new.

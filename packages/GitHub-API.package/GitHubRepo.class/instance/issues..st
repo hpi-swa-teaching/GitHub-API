@@ -1,6 +1,8 @@
 methods
 issues: anIssueIdentifier
 
+	"returns a specific issue identified by the issue number or the issue title"
+
 	| issue |
 	
 	issue := GitHubIssue new.

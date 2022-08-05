@@ -1,5 +1,7 @@
 methods
 commits
+	
+	"returns all commits"
 
 	| commits |
 	

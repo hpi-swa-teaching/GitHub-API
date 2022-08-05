@@ -1,6 +1,8 @@
 methods
 organizations: anOrganizationname
 
+	"returns an organization by name"
+
 	| organization |
 	
 	organization := GitHubOrganization new.

@@ -1,6 +1,8 @@
 methods
 cards
 
+	"returns all cards"
+
 	| cards |
 	
 	cards := GitHubCards new.

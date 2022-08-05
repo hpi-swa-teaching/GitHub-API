@@ -13,4 +13,6 @@ getAssetIdByName: anAssetName
 	assets := assets list.
 	
 	asset := assets detect: [:p | (p at: 'name') = anAssetName] ifNone: [].
-	asset ifNil: [self error: 'Unknown asset  ' , anAssetName , '!'] ifNotNil: [^ (asset at: 'id')]
+	asset 
+		ifNil: [self error: 'Unknown asset  ' , anAssetName , '!'] 
+		ifNotNil: [^ (asset at: 'id')]

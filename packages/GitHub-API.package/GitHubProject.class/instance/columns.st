@@ -1,6 +1,8 @@
 methods
 columns
 
+	"returns all columns"
+
 	| columns |
 	
 	columns := GitHubColumns new.

@@ -1,0 +1,1 @@
+check if all parameters are valid and required ones are set

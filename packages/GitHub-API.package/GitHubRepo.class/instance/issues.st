@@ -1,6 +1,8 @@
 methods
 issues
 
+	"returns all issues"
+
 	| issues |
 	
 	issues := GitHubIssues new.

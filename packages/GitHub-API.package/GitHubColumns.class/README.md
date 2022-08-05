@@ -1,1 +1,1 @@
-This class represents the columns endpoint from the GitHub-API.
+representation of all columns in a project

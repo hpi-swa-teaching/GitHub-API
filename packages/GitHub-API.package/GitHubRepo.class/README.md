@@ -1,1 +1,1 @@
-This class represents a specific repo from the GitHub-API.
+representation of a specific repository owned by a user

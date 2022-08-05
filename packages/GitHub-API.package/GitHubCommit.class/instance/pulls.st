@@ -1,6 +1,8 @@
 methods
 pulls
-
+	
+	"returns all pull requests associated with the commit"
+	
 	| pulls |
 	
 	pulls := GitHubPullRequests new.

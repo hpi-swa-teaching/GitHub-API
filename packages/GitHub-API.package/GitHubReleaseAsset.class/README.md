@@ -1,0 +1,1 @@
+representation of a specific asset in a release in a repository

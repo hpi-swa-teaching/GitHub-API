@@ -10,5 +10,7 @@ getIssueNumberByTitle: anIssueTitle
 		reponame: self reponame.
 
 	issues := issues list.
-	issue := issues detect: [:p | (p at: 'title') = anIssueTitle] ifNone: [].
-	issue ifNil: [self error: 'Unknown issue ' , anIssueTitle , '!'] ifNotNil: [^ (issue at: 'number')]
+	issue := issues detect: [:p | ((p at: 'title') asLowercase) = (anIssueTitle asLowercase)] ifNone: [].
+	issue 
+		ifNil: [self error: 'Unknown issue ' , anIssueTitle , '!'] 
+		ifNotNil: [^ (issue at: 'number')]

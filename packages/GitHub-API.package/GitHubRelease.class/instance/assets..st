@@ -1,6 +1,8 @@
 methods
 assets: anAssetIdentifier
 
+	"returns a specific asset identified by id or name"
+
 	| asset |
 	
 	asset := GitHubReleaseAsset new.

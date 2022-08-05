@@ -1,6 +1,8 @@
 methods
 blocks: aUsername
 
+	"returns a specific blocked user"
+
 	| block |
 	
 	block := GitHubOrganizationBlockingUser new.

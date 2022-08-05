@@ -1,6 +1,8 @@
 methods
 repos
 
+	"returns all repositories"
+
 	| repos |
 	
 	repos := GitHubRepos new.

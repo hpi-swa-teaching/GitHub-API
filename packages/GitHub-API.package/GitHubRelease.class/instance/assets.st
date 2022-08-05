@@ -1,6 +1,8 @@
 methods
 assets
 
+	"returns all assets"
+
 	| assets |
 	
 	assets := GitHubReleaseAssets new.

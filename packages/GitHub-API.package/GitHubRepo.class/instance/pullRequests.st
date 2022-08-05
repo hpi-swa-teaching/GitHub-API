@@ -1,6 +1,8 @@
 methods
 pullRequests
 
+	"returns all pull requests"
+
 	| pullRequests |
 	
 	pullRequests := GitHubPullRequests new.
