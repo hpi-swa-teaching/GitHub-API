@@ -35,9 +35,10 @@ Instanciate a new GitHubAPI-Object in your workspace by running
 ````
 api := GitHubAPI new.
 ```` 
-Head on over to https://github.com/settings/tokens/new and create a new access token (make sure to selected your correct scopes and write down your access token). \
+Head on over to your [GitHub User Settings](https://github.com/settings/tokens/new) and generate a new access token (make sure to selected your correct scopes and write down your access token). \
 Now run your first API request and get your current user profile (inspect the result, to see your data):
 ````
 api user get
 ```` 
 All available endpoints and parameters can be explored in the offical [GitHub Rest API Documenatation](https://docs.github.com/en/rest).
+(Please keep in mind, that not all endpoints are implemented so far!)
