@@ -17,7 +17,7 @@ You may need to add the following method to the ````WebClient```` class included
 ````
 httpPatch: urlString content: postData type: contentType do: aBlock
   "PATCH the data to the given url"
-​
+
   | request |
 
   self initializeFromUrl: urlString.
