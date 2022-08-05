@@ -7,8 +7,6 @@
 		"setUp" : "pb 8/4/2022 16:55",
 		"testAllowedMethodDelete" : "pb 8/4/2022 16:45",
 		"testAllowedMethodGet" : "pb 8/4/2022 16:59",
-		"testAllowedMethodMove" : "pb 8/4/2022 17:12",
-		"testAllowedMethodUpdate" : "pb 8/4/2022 17:23",
 		"testForbiddenMethodCreate" : "pb 6/22/2022 21:16",
 		"testForbiddenMethodList" : "pb 6/22/2022 21:16",
 		"testForbiddenMethodQueriedGet" : "pb 6/22/2022 21:16",
