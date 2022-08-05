@@ -33,7 +33,7 @@ httpPatch: urlString content: postData type: contentType do: aBlock
 # Usage
 Instanciate a new GitHubAPI-Object in your workspace by running 
 ````
-api := GitHubAPI new.
+api := GitHubApi new.
 ```` 
 Head on over to your [GitHub User Settings](https://github.com/settings/tokens/new) and generate a new access token (make sure to selected your correct scopes and write down your access token). \
 Now run your first API request and get your current user profile (inspect the result, to see your data):
